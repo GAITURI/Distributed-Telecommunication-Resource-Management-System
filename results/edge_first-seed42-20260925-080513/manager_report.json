@@ -1,0 +1,110 @@
+{
+  "policy": "edge_first",
+  "offered": {
+    "_all": 50,
+    "vRAN-DU": 10,
+    "IMS-CSCF": 11,
+    "IoT-GW": 9,
+    "UPF": 16,
+    "Transcoder": 4
+  },
+  "blocked": {
+    "_all": 11,
+    "vRAN-DU": 9,
+    "UPF": 2
+  },
+  "admitted": {
+    "_all": 39,
+    "vRAN-DU": 1,
+    "IMS-CSCF": 11,
+    "IoT-GW": 9,
+    "UPF": 14,
+    "Transcoder": 4
+  },
+  "blocking_probability": {
+    "_all": 0.22,
+    "vRAN-DU": 0.9,
+    "IMS-CSCF": 0.0,
+    "IoT-GW": 0.0,
+    "UPF": 0.125,
+    "Transcoder": 0.0
+  },
+  "blocked_reasons": {
+    "_all": {
+      "latency": 9,
+      "link_bandwidth": 2
+    },
+    "vRAN-DU": {
+      "latency": 9
+    },
+    "UPF": {
+      "link_bandwidth": 2
+    }
+  },
+  "decision_time_ms": {
+    "mean": 1.5583060029894114,
+    "max": 7.05550002749078,
+    "count": 50
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 350,
+    "messages_recv": 350,
+    "bytes_sent": 54177,
+    "bytes_recv": 46455
+  },
+  "sites_final": {
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  }
+}

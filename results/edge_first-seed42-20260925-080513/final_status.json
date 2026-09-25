@@ -1,0 +1,99 @@
+{
+  "type": "STATUS_OK",
+  "policy": "edge_first",
+  "sites": {
+    "edge-A": {
+      "tier": "edge",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0
+    },
+    "edge-B": {
+      "tier": "edge",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0
+    },
+    "core-1": {
+      "tier": "core",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.2187
+    }
+  },
+  "running_instances": 0,
+  "offered": {
+    "_all": 50,
+    "vRAN-DU": 10,
+    "IMS-CSCF": 11,
+    "IoT-GW": 9,
+    "UPF": 16,
+    "Transcoder": 4
+  },
+  "blocked": {
+    "_all": 11,
+    "vRAN-DU": 9,
+    "UPF": 2
+  },
+  "admitted": {
+    "_all": 39,
+    "vRAN-DU": 1,
+    "IMS-CSCF": 11,
+    "IoT-GW": 9,
+    "UPF": 14,
+    "Transcoder": 4
+  },
+  "link_utilisation": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 348,
+    "messages_recv": 349,
+    "bytes_sent": 52898,
+    "bytes_recv": 46431
+  }
+}
