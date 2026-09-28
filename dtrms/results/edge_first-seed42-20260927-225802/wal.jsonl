@@ -1,0 +1,103 @@
+{"op": "REGISTER", "site_id": "edge-A", "tier": "edge", "host": "127.0.0.1", "port": 6101, "capacity": {"cpu": 4000, "mem": 4096, "bw": 2000}, "ts": 1790539082.567466}
+{"op": "REGISTER", "site_id": "edge-B", "tier": "edge", "host": "127.0.0.1", "port": 6102, "capacity": {"cpu": 4000, "mem": 4096, "bw": 2000}, "ts": 1790539082.5694442}
+{"op": "REGISTER", "site_id": "core-1", "tier": "core", "host": "127.0.0.1", "port": 6103, "capacity": {"cpu": 12000, "mem": 16384, "bw": 10000}, "ts": 1790539082.5767639}
+{"op": "ADMIT", "sid": "S00001", "service": "vRAN-DU", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1500, "mem": 512, "bw": 300}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 2.247, "admitted_at": 1790539083.4775178, "ts": 1790539083.4775274}
+{"op": "ADMIT", "sid": "S00002", "service": "IMS-CSCF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 0.242, "admitted_at": 1790539083.8629391, "ts": 1790539083.8629549}
+{"op": "RESIZE", "sid": "S00001", "new_cpu": 3000, "site": "edge-B", "ts": 1790539084.091309}
+{"op": "EXIT", "sid": "S00002", "site": "edge-A", "ts": 1790539084.178933}
+{"op": "ADMIT", "sid": "S00003", "service": "IMS-CSCF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 4.771, "admitted_at": 1790539084.3883696, "ts": 1790539084.38838}
+{"op": "MIGRATE", "sid": "S00001", "from_site": "edge-B", "to_site": "core-1", "new_path": ["edge-B", "core-1"], "path_latency_ms": 6, "ts": 1790539084.5375547}
+{"op": "RESIZE", "sid": "S00001", "new_cpu": 6000, "site": "core-1", "ts": 1790539084.5423396}
+{"op": "RESIZE_MIGRATE", "sid": "S00001", "from_site": "edge-B", "to_site": "core-1", "new_cpu": 6000, "ts": 1790539084.5496085}
+{"op": "ADMIT", "sid": "S00004", "service": "IoT-GW", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 9.582, "admitted_at": 1790539085.4050696, "ts": 1790539085.4050772}
+{"op": "ADMIT", "sid": "S00005", "service": "IoT-GW", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 0.863, "admitted_at": 1790539085.4883556, "ts": 1790539085.488361}
+{"op": "ADMIT", "sid": "S00006", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 13.166, "admitted_at": 1790539085.7124174, "ts": 1790539085.712429}
+{"op": "EXIT", "sid": "S00001", "site": "core-1", "ts": 1790539085.7970514}
+{"op": "ADMIT", "sid": "S00007", "service": "IoT-GW", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 0.657, "admitted_at": 1790539086.0952241, "ts": 1790539086.095231}
+{"op": "EXIT", "sid": "S00005", "site": "edge-B", "ts": 1790539086.3909009}
+{"op": "ADMIT", "sid": "S00008", "service": "IoT-GW", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 6.89, "admitted_at": 1790539086.5925262, "ts": 1790539086.592536}
+{"op": "ADMIT", "sid": "S00009", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 33.717, "admitted_at": 1790539086.613881, "ts": 1790539086.6138859}
+{"op": "EXIT", "sid": "S00007", "site": "edge-B", "ts": 1790539086.7989345}
+{"op": "ADMIT", "sid": "S00010", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 8.078, "admitted_at": 1790539087.620006, "ts": 1790539087.6200113}
+{"op": "ADMIT", "sid": "S00011", "service": "UPF", "site": "edge-A", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B", "edge-A"], "path_latency_ms": 3, "holding_s": 9.68, "admitted_at": 1790539087.8552663, "ts": 1790539087.8552828}
+{"op": "ADMIT", "sid": "S00012", "service": "Transcoder", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 2000, "mem": 1024, "bw": 200}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 1.427, "admitted_at": 1790539087.8889272, "ts": 1790539087.8889368}
+{"op": "EXIT", "sid": "S00003", "site": "edge-A", "ts": 1790539089.2040627}
+{"op": "EXIT", "sid": "S00012", "site": "edge-A", "ts": 1790539089.4100332}
+{"op": "ADMIT", "sid": "S00013", "service": "Transcoder", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 2000, "mem": 1024, "bw": 200}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 9.232, "admitted_at": 1790539090.1675217, "ts": 1790539090.1675282}
+{"op": "ADMIT", "sid": "S00014", "service": "UPF", "site": "core-1", "ingress": "edge-A", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-A", "core-1"], "path_latency_ms": 5, "holding_s": 13.08, "admitted_at": 1790539090.916355, "ts": 1790539090.9164076}
+{"op": "ADMIT", "sid": "S00015", "service": "IoT-GW", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 1.912, "admitted_at": 1790539090.9490998, "ts": 1790539090.9491043}
+{"op": "ADMIT", "sid": "S00016", "service": "Transcoder", "site": "core-1", "ingress": "edge-A", "demand": {"cpu": 2000, "mem": 1024, "bw": 200}, "path": ["edge-A", "core-1"], "path_latency_ms": 5, "holding_s": 2.462, "admitted_at": 1790539092.0312166, "ts": 1790539092.031223}
+{"op": "EXIT", "sid": "S00015", "site": "edge-B", "ts": 1790539092.9312797}
+{"op": "MIGRATE", "sid": "S00009", "from_site": "edge-B", "to_site": "core-1", "new_path": ["edge-B", "core-1"], "path_latency_ms": 6, "ts": 1790539092.986167}
+{"op": "RESIZE", "sid": "S00009", "new_cpu": 2000, "site": "core-1", "ts": 1790539092.9929318}
+{"op": "RESIZE_MIGRATE", "sid": "S00009", "from_site": "edge-B", "to_site": "core-1", "new_cpu": 2000, "ts": 1790539092.9996016}
+{"op": "ADMIT", "sid": "S00017", "service": "UPF", "site": "core-1", "ingress": "edge-A", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-A", "core-1"], "path_latency_ms": 5, "holding_s": 47.393, "admitted_at": 1790539093.1711967, "ts": 1790539093.171205}
+{"op": "EXIT", "sid": "S00008", "site": "edge-B", "ts": 1790539093.5397153}
+{"op": "ADMIT", "sid": "S00018", "service": "vRAN-DU", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1500, "mem": 512, "bw": 300}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 7.249, "admitted_at": 1790539094.4325197, "ts": 1790539094.4325275}
+{"op": "EXIT", "sid": "S00016", "site": "core-1", "ts": 1790539094.5323484}
+{"op": "ADMIT", "sid": "S00019", "service": "IMS-CSCF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 9.123, "admitted_at": 1790539094.578022, "ts": 1790539094.5780313}
+{"op": "EXIT", "sid": "S00004", "site": "edge-A", "ts": 1790539095.0355823}
+{"op": "EXIT", "sid": "S00010", "site": "edge-B", "ts": 1790539095.7504127}
+{"op": "ADMIT", "sid": "S00020", "service": "IoT-GW", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 28.572, "admitted_at": 1790539096.3222742, "ts": 1790539096.322279}
+{"op": "ADMIT", "sid": "S00021", "service": "IoT-GW", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 7.309, "admitted_at": 1790539097.4202373, "ts": 1790539097.420249}
+{"op": "ADMIT", "sid": "S00022", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 2.19, "admitted_at": 1790539097.4775224, "ts": 1790539097.4775279}
+{"op": "EXIT", "sid": "S00011", "site": "edge-A", "ts": 1790539097.5437374}
+{"op": "RESIZE", "sid": "S00019", "new_cpu": 250, "site": "edge-A", "ts": 1790539097.7809875}
+{"op": "ADMIT", "sid": "S00023", "service": "vRAN-DU", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 1500, "mem": 512, "bw": 300}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 1.099, "admitted_at": 1790539097.8127134, "ts": 1790539097.812726}
+{"op": "ADMIT", "sid": "S00024", "service": "UPF", "site": "core-1", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B", "core-1"], "path_latency_ms": 6, "holding_s": 26.675, "admitted_at": 1790539098.2087133, "ts": 1790539098.2087173}
+{"op": "ADMIT", "sid": "S00025", "service": "Transcoder", "site": "core-1", "ingress": "edge-B", "demand": {"cpu": 2000, "mem": 1024, "bw": 200}, "path": ["edge-B", "core-1"], "path_latency_ms": 6, "holding_s": 4.073, "admitted_at": 1790539098.9125016, "ts": 1790539098.9125068}
+{"op": "EXIT", "sid": "S00023", "site": "edge-A", "ts": 1790539098.950041}
+{"op": "EXIT", "sid": "S00006", "site": "edge-B", "ts": 1790539098.9605656}
+{"op": "ADMIT", "sid": "S00026", "service": "IoT-GW", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 1.032, "admitted_at": 1790539099.146464, "ts": 1790539099.1464703}
+{"op": "ADMIT", "sid": "S00027", "service": "UPF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 9.844, "admitted_at": 1790539099.2778375, "ts": 1790539099.277844}
+{"op": "ADMIT", "sid": "S00028", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 1.929, "admitted_at": 1790539099.3143225, "ts": 1790539099.3143346}
+{"op": "EXIT", "sid": "S00013", "site": "edge-A", "ts": 1790539099.454518}
+{"op": "EXIT", "sid": "S00022", "site": "edge-B", "ts": 1790539099.7656634}
+{"op": "RESIZE", "sid": "S00019", "new_cpu": 500, "site": "edge-A", "ts": 1790539099.9721818}
+{"op": "ADMIT", "sid": "S00029", "service": "IoT-GW", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 0.793, "admitted_at": 1790539100.081695, "ts": 1790539100.0816996}
+{"op": "EXIT", "sid": "S00026", "site": "edge-B", "ts": 1790539100.2722065}
+{"op": "ADMIT", "sid": "S00030", "service": "IMS-CSCF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 8.951, "admitted_at": 1790539100.3015037, "ts": 1790539100.301512}
+{"op": "ADMIT", "sid": "S00031", "service": "IMS-CSCF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 12.899, "admitted_at": 1790539100.3525565, "ts": 1790539100.3525617}
+{"op": "EXIT", "sid": "S00029", "site": "edge-A", "ts": 1790539100.9617918}
+{"op": "EXIT", "sid": "S00028", "site": "edge-B", "ts": 1790539101.2844265}
+{"op": "EXIT", "sid": "S00018", "site": "edge-B", "ts": 1790539101.6884978}
+{"op": "ADMIT", "sid": "S00032", "service": "IMS-CSCF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 0.415, "admitted_at": 1790539101.7120266, "ts": 1790539101.7120326}
+{"op": "EXIT", "sid": "S00032", "site": "edge-A", "ts": 1790539102.1728325}
+{"op": "ADMIT", "sid": "S00033", "service": "IoT-GW", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 1.455, "admitted_at": 1790539102.615366, "ts": 1790539102.6153715}
+{"op": "ADMIT", "sid": "S00034", "service": "IMS-CSCF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 1.439, "admitted_at": 1790539102.7353375, "ts": 1790539102.7353477}
+{"op": "EXIT", "sid": "S00025", "site": "core-1", "ts": 1790539103.0697618}
+{"op": "ADMIT", "sid": "S00035", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 1.345, "admitted_at": 1790539103.5071557, "ts": 1790539103.507168}
+{"op": "EXIT", "sid": "S00019", "site": "edge-A", "ts": 1790539103.7830687}
+{"op": "EXIT", "sid": "S00014", "site": "core-1", "ts": 1790539104.0769265}
+{"op": "EXIT", "sid": "S00033", "site": "edge-A", "ts": 1790539104.0943367}
+{"op": "EXIT", "sid": "S00034", "site": "edge-A", "ts": 1790539104.199271}
+{"op": "EXIT", "sid": "S00021", "site": "edge-A", "ts": 1790539104.8118632}
+{"op": "EXIT", "sid": "S00035", "site": "edge-B", "ts": 1790539104.90036}
+{"op": "ADMIT", "sid": "S00036", "service": "IMS-CSCF", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 500, "mem": 256, "bw": 50}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 11.026, "admitted_at": 1790539105.2365308, "ts": 1790539105.2365355}
+{"op": "ADMIT", "sid": "S00037", "service": "vRAN-DU", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 1500, "mem": 512, "bw": 300}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 15.249, "admitted_at": 1790539105.6178603, "ts": 1790539105.61787}
+{"op": "ADMIT", "sid": "S00038", "service": "IoT-GW", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 250, "mem": 128, "bw": 20}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 6.919, "admitted_at": 1790539105.8739362, "ts": 1790539105.8739407}
+{"op": "ADMIT", "sid": "S00039", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 1.828, "admitted_at": 1790539106.2904713, "ts": 1790539106.290476}
+{"op": "ADMIT", "sid": "S00040", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 4.888, "admitted_at": 1790539106.4265635, "ts": 1790539106.4265683}
+{"op": "ADMIT", "sid": "S00041", "service": "UPF", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1000, "mem": 512, "bw": 400}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 17.02, "admitted_at": 1790539107.9195468, "ts": 1790539107.9195535}
+{"op": "EXIT", "sid": "S00039", "site": "edge-B", "ts": 1790539108.211941}
+{"op": "EXIT", "sid": "S00027", "site": "edge-A", "ts": 1790539109.1267934}
+{"op": "EXIT", "sid": "S00030", "site": "edge-A", "ts": 1790539109.334708}
+{"op": "ADMIT", "sid": "S00042", "service": "Transcoder", "site": "core-1", "ingress": "edge-A", "demand": {"cpu": 2000, "mem": 1024, "bw": 200}, "path": ["edge-A", "core-1"], "path_latency_ms": 5, "holding_s": 8.818, "admitted_at": 1790539110.3304205, "ts": 1790539110.3304265}
+{"op": "EXIT", "sid": "S00040", "site": "edge-B", "ts": 1790539111.3238568}
+{"op": "RESIZE", "sid": "S00031", "new_cpu": 1000, "site": "edge-B", "ts": 1790539111.3395166}
+{"op": "ADMIT", "sid": "S00043", "service": "vRAN-DU", "site": "edge-A", "ingress": "edge-A", "demand": {"cpu": 1500, "mem": 512, "bw": 300}, "path": ["edge-A"], "path_latency_ms": 0, "holding_s": 2.457, "admitted_at": 1790539111.6722803, "ts": 1790539111.6722846}
+{"op": "ADMIT", "sid": "S00044", "service": "vRAN-DU", "site": "edge-B", "ingress": "edge-B", "demand": {"cpu": 1500, "mem": 512, "bw": 300}, "path": ["edge-B"], "path_latency_ms": 0, "holding_s": 7.428, "admitted_at": 1790539112.3510468, "ts": 1790539112.3510516}
+{"op": "ADMIT", "sid": "S00045", "service": "Transcoder", "site": "core-1", "ingress": "edge-B", "demand": {"cpu": 2000, "mem": 1024, "bw": 200}, "path": ["edge-B", "core-1"], "path_latency_ms": 6, "holding_s": 5.632, "admitted_at": 1790539112.464563, "ts": 1790539112.4645684}
+{"op": "EXIT", "sid": "S00038", "site": "edge-A", "ts": 1790539112.848827}
+{"op": "EXIT", "sid": "S00031", "site": "edge-B", "ts": 1790539113.3309765}
+{"op": "EXIT", "sid": "S00043", "site": "edge-A", "ts": 1790539114.1541486}
+{"op": "EXIT", "sid": "S00036", "site": "edge-A", "ts": 1790539116.362488}
+{"op": "EXIT", "sid": "S00045", "site": "core-1", "ts": 1790539118.1142588}
+{"op": "EXIT", "sid": "S00042", "site": "core-1", "ts": 1790539119.221867}
+{"op": "EXIT", "sid": "S00044", "site": "edge-B", "ts": 1790539119.8514183}
+{"op": "EXIT", "sid": "S00009", "site": "core-1", "ts": 1790539120.3359878}
+{"op": "EXIT", "sid": "S00037", "site": "edge-A", "ts": 1790539120.877843}
+{"op": "EXIT", "sid": "S00024", "site": "core-1", "ts": 1790539124.9629047}
+{"op": "EXIT", "sid": "S00020", "site": "edge-B", "ts": 1790539124.9905148}
+{"op": "EXIT", "sid": "S00041", "site": "edge-B", "ts": 1790539125.0214102}
+{"op": "EXIT", "sid": "S00017", "site": "core-1", "ts": 1790539140.6429858}

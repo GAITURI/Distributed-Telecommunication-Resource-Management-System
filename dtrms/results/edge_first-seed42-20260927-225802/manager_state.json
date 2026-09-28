@@ -1,0 +1,88 @@
+{
+  "label": "final_report",
+  "ts": 1790539141.018286,
+  "policy": "edge_first",
+  "next_sid": 46,
+  "sites": {
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "status": "ACTIVE",
+      "tier": "edge",
+      "host": "127.0.0.1",
+      "port": 6101
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "status": "ACTIVE",
+      "tier": "edge",
+      "host": "127.0.0.1",
+      "port": 6102
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "status": "ACTIVE",
+      "tier": "core",
+      "host": "127.0.0.1",
+      "port": 6103
+    }
+  },
+  "allocation_table": {},
+  "offered": {
+    "_all": 52,
+    "vRAN-DU": 12,
+    "IMS-CSCF": 8,
+    "IoT-GW": 11,
+    "UPF": 15,
+    "Transcoder": 6
+  },
+  "blocked": {
+    "_all": 7,
+    "vRAN-DU": 6,
+    "UPF": 1
+  },
+  "admitted": {
+    "_all": 45,
+    "vRAN-DU": 6,
+    "IMS-CSCF": 8,
+    "IoT-GW": 11,
+    "UPF": 14,
+    "Transcoder": 6
+  },
+  "migrations": {
+    "attempted": 2,
+    "succeeded": 2,
+    "failed": 0
+  },
+  "link_reserved": {
+    "frozenset({'core-1', 'edge-A'})": 0.0,
+    "frozenset({'edge-B', 'core-1'})": 0.0,
+    "frozenset({'edge-B', 'edge-A'})": 0.0
+  }
+}

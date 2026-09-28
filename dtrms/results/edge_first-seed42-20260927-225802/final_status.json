@@ -1,0 +1,115 @@
+{
+  "type": "STATUS_OK",
+  "policy": "edge_first",
+  "sites": {
+    "edge-A": {
+      "tier": "edge",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0,
+      "host": "127.0.0.1",
+      "port": 6101,
+      "workers": 2
+    },
+    "edge-B": {
+      "tier": "edge",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0,
+      "host": "127.0.0.1",
+      "port": 6102,
+      "workers": 2
+    },
+    "core-1": {
+      "tier": "core",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.2241,
+      "host": "127.0.0.1",
+      "port": 6103,
+      "workers": 4
+    }
+  },
+  "running_instances": 0,
+  "instances": [],
+  "offered": {
+    "_all": 52,
+    "vRAN-DU": 12,
+    "IMS-CSCF": 8,
+    "IoT-GW": 11,
+    "UPF": 15,
+    "Transcoder": 6
+  },
+  "blocked": {
+    "_all": 7,
+    "vRAN-DU": 6,
+    "UPF": 1
+  },
+  "admitted": {
+    "_all": 45,
+    "vRAN-DU": 6,
+    "IMS-CSCF": 8,
+    "IoT-GW": 11,
+    "UPF": 14,
+    "Transcoder": 6
+  },
+  "link_utilisation": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 372,
+    "messages_recv": 373,
+    "bytes_sent": 84408,
+    "bytes_recv": 50281
+  },
+  "migrations": {
+    "attempted": 2,
+    "succeeded": 2,
+    "failed": 0
+  },
+  "admission_in_flight": 0
+}

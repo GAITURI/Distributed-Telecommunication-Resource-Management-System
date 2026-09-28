@@ -1,0 +1,121 @@
+{
+  "policy": "edge_first",
+  "offered": {
+    "_all": 52,
+    "vRAN-DU": 12,
+    "IMS-CSCF": 8,
+    "IoT-GW": 11,
+    "UPF": 15,
+    "Transcoder": 6
+  },
+  "blocked": {
+    "_all": 7,
+    "vRAN-DU": 6,
+    "UPF": 1
+  },
+  "admitted": {
+    "_all": 45,
+    "vRAN-DU": 6,
+    "IMS-CSCF": 8,
+    "IoT-GW": 11,
+    "UPF": 14,
+    "Transcoder": 6
+  },
+  "blocking_probability": {
+    "_all": 0.1346153846153846,
+    "vRAN-DU": 0.5,
+    "IMS-CSCF": 0.0,
+    "IoT-GW": 0.0,
+    "UPF": 0.06666666666666667,
+    "Transcoder": 0.0
+  },
+  "blocked_reasons": {
+    "_all": {
+      "latency": 6,
+      "node_capacity": 1
+    },
+    "vRAN-DU": {
+      "latency": 6
+    },
+    "UPF": {
+      "node_capacity": 1
+    }
+  },
+  "decision_time_ms": {
+    "mean": 7.6668087115381995,
+    "max": 166.58198600000418,
+    "count": 52
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 374,
+    "messages_recv": 374,
+    "bytes_sent": 85937,
+    "bytes_recv": 50305
+  },
+  "sites_final": {
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  },
+  "migrations": {
+    "attempted": 2,
+    "succeeded": 2,
+    "failed": 0
+  },
+  "admission_concurrent": true,
+  "auth_enabled": false,
+  "wal_path": "/mnt/d/Distributed Computing/dtrms/results/edge_first-seed42-20260927-225802/wal.jsonl",
+  "snapshot_path": "/mnt/d/Distributed Computing/dtrms/results/edge_first-seed42-20260927-225802/manager_state.json",
+  "recover_applied": 0,
+  "written_at": "2026-09-27T22:59:01.030197"
+}

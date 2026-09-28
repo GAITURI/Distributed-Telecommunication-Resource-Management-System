@@ -1,0 +1,7 @@
+[manager] listening on 127.0.0.1:6000 (policy=edge_first)
+[manager] REGISTER edge-A (edge) at 127.0.0.1:6101
+[manager] REGISTER edge-B (edge) at 127.0.0.1:6102
+[manager] REGISTER core-1 (core) at 127.0.0.1:6103
+[manager] migrated S00001: edge-B -> core-1
+[manager] migrated S00009: edge-B -> core-1
+[manager] report written to /mnt/d/Distributed Computing/dtrms/results/edge_first-seed42-20260927-225802
