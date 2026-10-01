@@ -1,0 +1,1297 @@
+[
+  {
+    "ts": 1790845554.6480181,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845555.6484933,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.3958333333333333,
+        "mem_util": 0.1484375,
+        "bw_util": 0.107
+      },
+      "edge-A": {
+        "cpu_util": 0.5625,
+        "mem_util": 0.21875,
+        "bw_util": 0.18
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.25,
+        "bw_util": 0.35
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 250.0,
+        "utilisation": 0.25
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 820.0,
+        "utilisation": 0.82
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 40.0,
+        "utilisation": 0.1
+      }
+    }
+  },
+  {
+    "ts": 1790845556.6506503,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.8541666666666666,
+        "mem_util": 0.2890625,
+        "bw_util": 0.182
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.41
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.25,
+        "bw_util": 0.35
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 1000.0,
+        "utilisation": 1.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 820.0,
+        "utilisation": 0.82
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 40.0,
+        "utilisation": 0.1
+      }
+    }
+  },
+  {
+    "ts": 1790845557.6580877,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.9375,
+        "mem_util": 0.3203125,
+        "bw_util": 0.19
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.41
+      },
+      "edge-B": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.22
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 990.0,
+        "utilisation": 0.99
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 910.0,
+        "utilisation": 0.91
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 80.0,
+        "utilisation": 0.2
+      }
+    }
+  },
+  {
+    "ts": 1790845558.659132,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.7708333333333334,
+        "mem_util": 0.2578125,
+        "bw_util": 0.171
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.41
+      },
+      "edge-B": {
+        "cpu_util": 0.9375,
+        "mem_util": 0.46875,
+        "bw_util": 0.475
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 840.0,
+        "utilisation": 0.84
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 870.0,
+        "utilisation": 0.87
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 150.0,
+        "utilisation": 0.375
+      }
+    }
+  },
+  {
+    "ts": 1790845559.659894,
+    "sites": {
+      "core-1": {
+        "cpu_util": 1.0,
+        "mem_util": 0.34375,
+        "bw_util": 0.197
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.41
+      },
+      "edge-B": {
+        "cpu_util": 0.9375,
+        "mem_util": 0.46875,
+        "bw_util": 0.475
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 990.0,
+        "utilisation": 0.99
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 980.0,
+        "utilisation": 0.98
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 130.0,
+        "utilisation": 0.325
+      }
+    }
+  },
+  {
+    "ts": 1790845560.6608496,
+    "sites": {
+      "core-1": {
+        "cpu_util": 1.0,
+        "mem_util": 0.34375,
+        "bw_util": 0.196
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.41
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.5,
+        "bw_util": 0.485
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 960.0,
+        "utilisation": 0.96
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 1000.0,
+        "utilisation": 1.0
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 120.0,
+        "utilisation": 0.3
+      }
+    }
+  },
+  {
+    "ts": 1790845561.661077,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.9791666666666666,
+        "mem_util": 0.3359375,
+        "bw_util": 0.192
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.255
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.5,
+        "bw_util": 0.48
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 950.0,
+        "utilisation": 0.95
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 970.0,
+        "utilisation": 0.97
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 160.0,
+        "utilisation": 0.4
+      }
+    }
+  },
+  {
+    "ts": 1790845562.6615005,
+    "sites": {
+      "core-1": {
+        "cpu_util": 1.0,
+        "mem_util": 0.34375,
+        "bw_util": 0.194
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.26
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.5,
+        "bw_util": 0.48
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 970.0,
+        "utilisation": 0.97
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 970.0,
+        "utilisation": 0.97
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 170.0,
+        "utilisation": 0.425
+      }
+    }
+  },
+  {
+    "ts": 1790845563.6616757,
+    "sites": {
+      "core-1": {
+        "cpu_util": 1.0,
+        "mem_util": 0.34375,
+        "bw_util": 0.193
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.26
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.5,
+        "bw_util": 0.48
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 940.0,
+        "utilisation": 0.94
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 990.0,
+        "utilisation": 0.99
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 170.0,
+        "utilisation": 0.425
+      }
+    }
+  },
+  {
+    "ts": 1790845564.662332,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.9791666666666666,
+        "mem_util": 0.3359375,
+        "bw_util": 0.191
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.26
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.5,
+        "bw_util": 0.325
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 940.0,
+        "utilisation": 0.94
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 970.0,
+        "utilisation": 0.97
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 240.0,
+        "utilisation": 0.6
+      }
+    }
+  },
+  {
+    "ts": 1790845565.6627724,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.9166666666666666,
+        "mem_util": 0.3125,
+        "bw_util": 0.182
+      },
+      "edge-A": {
+        "cpu_util": 1.0,
+        "mem_util": 0.4375,
+        "bw_util": 0.265
+      },
+      "edge-B": {
+        "cpu_util": 1.0,
+        "mem_util": 0.5,
+        "bw_util": 0.325
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 850.0,
+        "utilisation": 0.85
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 970.0,
+        "utilisation": 0.97
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 290.0,
+        "utilisation": 0.725
+      }
+    }
+  },
+  {
+    "ts": 1790845566.663317,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.8541666666666666,
+        "mem_util": 0.2890625,
+        "bw_util": 0.175
+      },
+      "edge-A": {
+        "cpu_util": 0.875,
+        "mem_util": 0.375,
+        "bw_util": 0.245
+      },
+      "edge-B": {
+        "cpu_util": 0.9375,
+        "mem_util": 0.46875,
+        "bw_util": 0.315
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 830.0,
+        "utilisation": 0.83
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 920.0,
+        "utilisation": 0.92
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 270.0,
+        "utilisation": 0.675
+      }
+    }
+  },
+  {
+    "ts": 1790845567.663958,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.8333333333333334,
+        "mem_util": 0.25,
+        "bw_util": 0.164
+      },
+      "edge-A": {
+        "cpu_util": 0.75,
+        "mem_util": 0.3125,
+        "bw_util": 0.22
+      },
+      "edge-B": {
+        "cpu_util": 0.9375,
+        "mem_util": 0.46875,
+        "bw_util": 0.315
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 760.0,
+        "utilisation": 0.76
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 880.0,
+        "utilisation": 0.88
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 220.0,
+        "utilisation": 0.55
+      }
+    }
+  },
+  {
+    "ts": 1790845568.665994,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.6875,
+        "mem_util": 0.1953125,
+        "bw_util": 0.118
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.875,
+        "mem_util": 0.4375,
+        "bw_util": 0.305
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 740.0,
+        "utilisation": 0.74
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 200.0,
+        "utilisation": 0.5
+      }
+    }
+  },
+  {
+    "ts": 1790845569.6666908,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.5,
+        "mem_util": 0.125,
+        "bw_util": 0.066
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.8125,
+        "mem_util": 0.40625,
+        "bw_util": 0.295
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 220.0,
+        "utilisation": 0.22
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 180.0,
+        "utilisation": 0.45
+      }
+    }
+  },
+  {
+    "ts": 1790845570.6672645,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.5,
+        "mem_util": 0.125,
+        "bw_util": 0.066
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.8125,
+        "mem_util": 0.40625,
+        "bw_util": 0.295
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 220.0,
+        "utilisation": 0.22
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 180.0,
+        "utilisation": 0.45
+      }
+    }
+  },
+  {
+    "ts": 1790845571.6682541,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.4583333333333333,
+        "mem_util": 0.109375,
+        "bw_util": 0.061
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.75,
+        "mem_util": 0.375,
+        "bw_util": 0.285
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 170.0,
+        "utilisation": 0.17
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 160.0,
+        "utilisation": 0.4
+      }
+    }
+  },
+  {
+    "ts": 1790845572.6691904,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.4375,
+        "mem_util": 0.1015625,
+        "bw_util": 0.059
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.6875,
+        "mem_util": 0.34375,
+        "bw_util": 0.275
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 150.0,
+        "utilisation": 0.15
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 140.0,
+        "utilisation": 0.35
+      }
+    }
+  },
+  {
+    "ts": 1790845573.669734,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.4375,
+        "mem_util": 0.1015625,
+        "bw_util": 0.059
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.6875,
+        "mem_util": 0.34375,
+        "bw_util": 0.275
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 150.0,
+        "utilisation": 0.15
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 140.0,
+        "utilisation": 0.35
+      }
+    }
+  },
+  {
+    "ts": 1790845574.6705632,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.4166666666666667,
+        "mem_util": 0.09375,
+        "bw_util": 0.057
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.065
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 130.0,
+        "utilisation": 0.13
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 120.0,
+        "utilisation": 0.3
+      }
+    }
+  },
+  {
+    "ts": 1790845575.6709213,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.4166666666666667,
+        "mem_util": 0.09375,
+        "bw_util": 0.057
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.25,
+        "mem_util": 0.125,
+        "bw_util": 0.04
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 130.0,
+        "utilisation": 0.13
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 70.0,
+        "utilisation": 0.175
+      }
+    }
+  },
+  {
+    "ts": 1790845576.67187,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.4166666666666667,
+        "mem_util": 0.09375,
+        "bw_util": 0.057
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.1875,
+        "mem_util": 0.09375,
+        "bw_util": 0.03
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 130.0,
+        "utilisation": 0.13
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 440.0,
+        "utilisation": 0.44
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 50.0,
+        "utilisation": 0.125
+      }
+    }
+  },
+  {
+    "ts": 1790845577.674335,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.3541666666666667,
+        "mem_util": 0.0703125,
+        "bw_util": 0.051
+      },
+      "edge-A": {
+        "cpu_util": 0.375,
+        "mem_util": 0.1875,
+        "bw_util": 0.07
+      },
+      "edge-B": {
+        "cpu_util": 0.1875,
+        "mem_util": 0.09375,
+        "bw_util": 0.03
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 110.0,
+        "utilisation": 0.11
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 50.0,
+        "utilisation": 0.125
+      }
+    }
+  },
+  {
+    "ts": 1790845578.6779363,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.2916666666666667,
+        "mem_util": 0.046875,
+        "bw_util": 0.045
+      },
+      "edge-A": {
+        "cpu_util": 0.3125,
+        "mem_util": 0.15625,
+        "bw_util": 0.06
+      },
+      "edge-B": {
+        "cpu_util": 0.1875,
+        "mem_util": 0.09375,
+        "bw_util": 0.03
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 50.0,
+        "utilisation": 0.05
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 50.0,
+        "utilisation": 0.125
+      }
+    }
+  },
+  {
+    "ts": 1790845579.6807702,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.3125,
+        "mem_util": 0.15625,
+        "bw_util": 0.06
+      },
+      "edge-B": {
+        "cpu_util": 0.1875,
+        "mem_util": 0.09375,
+        "bw_util": 0.03
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 50.0,
+        "utilisation": 0.125
+      }
+    }
+  },
+  {
+    "ts": 1790845580.6809938,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.25,
+        "mem_util": 0.125,
+        "bw_util": 0.05
+      },
+      "edge-B": {
+        "cpu_util": 0.125,
+        "mem_util": 0.0625,
+        "bw_util": 0.02
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 50.0,
+        "utilisation": 0.125
+      }
+    }
+  },
+  {
+    "ts": 1790845581.6813164,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.125,
+        "mem_util": 0.0625,
+        "bw_util": 0.02
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845582.682323,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.125,
+        "mem_util": 0.0625,
+        "bw_util": 0.02
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845583.6825492,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.125,
+        "mem_util": 0.0625,
+        "bw_util": 0.02
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845584.6901035,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.125,
+        "mem_util": 0.0625,
+        "bw_util": 0.02
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845585.6912284,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.0625,
+        "mem_util": 0.03125,
+        "bw_util": 0.01
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845586.6919258,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.0625,
+        "mem_util": 0.03125,
+        "bw_util": 0.01
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845587.6922708,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  },
+  {
+    "ts": 1790845588.6928015,
+    "sites": {
+      "core-1": {
+        "cpu_util": 0.25,
+        "mem_util": 0.03125,
+        "bw_util": 0.04
+      },
+      "edge-A": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      },
+      "edge-B": {
+        "cpu_util": 0.0,
+        "mem_util": 0.0,
+        "bw_util": 0.0
+      }
+    },
+    "links": {
+      "edge-A<->core-1": {
+        "capacity": 1000,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      },
+      "edge-B<->core-1": {
+        "capacity": 1000,
+        "reserved": 400.0,
+        "utilisation": 0.4
+      },
+      "edge-A<->edge-B": {
+        "capacity": 400,
+        "reserved": 0.0,
+        "utilisation": 0.0
+      }
+    }
+  }
+]

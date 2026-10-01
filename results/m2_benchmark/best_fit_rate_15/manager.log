@@ -1,0 +1,5 @@
+[manager] listening on 127.0.0.1:6000 (policy=best_fit)
+[manager] REGISTER edge-A (edge) at 127.0.0.1:6101
+[manager] REGISTER edge-B (edge) at 127.0.0.1:6102
+[manager] REGISTER core-1 (core) at 127.0.0.1:6103
+[manager] report written to results/m2_benchmark\best_fit_rate_15

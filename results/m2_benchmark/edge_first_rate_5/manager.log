@@ -1,0 +1,7 @@
+[manager] listening on 127.0.0.1:6000 (policy=edge_first)
+[manager] REGISTER edge-B (edge) at 127.0.0.1:6102
+[manager] REGISTER core-1 (core) at 127.0.0.1:6103
+[manager] REGISTER edge-A (edge) at 127.0.0.1:6101
+[manager] core-1 -> SUSPECT (no heartbeat for 3.5s)
+[manager] core-1 back ACTIVE
+[manager] report written to results/m2_benchmark\edge_first_rate_5

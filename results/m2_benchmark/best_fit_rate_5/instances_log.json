@@ -1,0 +1,326 @@
+[
+  {
+    "jobs_done": 20,
+    "busy_s": 0.128,
+    "latency_sum_ms": 139.58,
+    "holding_s": 0.242,
+    "sid": "S00002",
+    "service": "IMS-CSCF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 18,
+    "busy_s": 0.088,
+    "latency_sum_ms": 120.874,
+    "holding_s": 0.863,
+    "sid": "S00005",
+    "service": "IoT-GW",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 103,
+    "busy_s": 0.595,
+    "latency_sum_ms": 695.587,
+    "holding_s": 0.657,
+    "sid": "S00007",
+    "service": "IoT-GW",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 538,
+    "busy_s": 3.229,
+    "latency_sum_ms": 3677.341,
+    "holding_s": 2.247,
+    "sid": "S00001",
+    "service": "vRAN-DU",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 35,
+    "busy_s": 0.16,
+    "latency_sum_ms": 200.532,
+    "holding_s": 1.912,
+    "sid": "S00014",
+    "service": "IoT-GW",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 294,
+    "busy_s": 1.816,
+    "latency_sum_ms": 2057.661,
+    "holding_s": 4.771,
+    "sid": "S00003",
+    "service": "IMS-CSCF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 491,
+    "busy_s": 2.843,
+    "latency_sum_ms": 3251.325,
+    "holding_s": 2.462,
+    "sid": "S00015",
+    "service": "Transcoder",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 49,
+    "busy_s": 0.279,
+    "latency_sum_ms": 320.326,
+    "holding_s": 0.716,
+    "sid": "S00021",
+    "service": "IMS-CSCF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 32,
+    "busy_s": 0.164,
+    "latency_sum_ms": 185.226,
+    "holding_s": 1.099,
+    "sid": "S00022",
+    "service": "IoT-GW",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 67,
+    "busy_s": 0.383,
+    "latency_sum_ms": 442.821,
+    "holding_s": 3.595,
+    "sid": "S00016",
+    "service": "IoT-GW",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 92,
+    "busy_s": 0.5,
+    "latency_sum_ms": 572.377,
+    "holding_s": 1.032,
+    "sid": "S00024",
+    "service": "UPF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 19,
+    "busy_s": 0.117,
+    "latency_sum_ms": 133.178,
+    "holding_s": 0.793,
+    "sid": "S00026",
+    "service": "IoT-GW",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 21,
+    "busy_s": 0.157,
+    "latency_sum_ms": 174.139,
+    "holding_s": 0.415,
+    "sid": "S00029",
+    "service": "IMS-CSCF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 688,
+    "busy_s": 4.279,
+    "latency_sum_ms": 4870.36,
+    "holding_s": 6.111,
+    "sid": "S00011",
+    "service": "vRAN-DU",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 216,
+    "busy_s": 1.349,
+    "latency_sum_ms": 1548.916,
+    "holding_s": 6.89,
+    "sid": "S00008",
+    "service": "IoT-GW",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 166,
+    "busy_s": 0.96,
+    "latency_sum_ms": 1104.783,
+    "holding_s": 1.929,
+    "sid": "S00025",
+    "service": "UPF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 30,
+    "busy_s": 0.177,
+    "latency_sum_ms": 196.592,
+    "holding_s": 1.455,
+    "sid": "S00030",
+    "service": "IoT-GW",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 66,
+    "busy_s": 0.364,
+    "latency_sum_ms": 442.076,
+    "holding_s": 1.439,
+    "sid": "S00031",
+    "service": "IMS-CSCF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 128,
+    "busy_s": 0.867,
+    "latency_sum_ms": 1006.116,
+    "holding_s": 1.345,
+    "sid": "S00032",
+    "service": "UPF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 279,
+    "busy_s": 1.709,
+    "latency_sum_ms": 1954.996,
+    "holding_s": 9.582,
+    "sid": "S00004",
+    "service": "IoT-GW",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 967,
+    "busy_s": 5.819,
+    "latency_sum_ms": 6595.854,
+    "holding_s": 8.874,
+    "sid": "S00010",
+    "service": "UPF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 75,
+    "busy_s": 0.408,
+    "latency_sum_ms": 457.038,
+    "holding_s": 1.828,
+    "sid": "S00035",
+    "service": "IMS-CSCF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 1393,
+    "busy_s": 8.456,
+    "latency_sum_ms": 9649.348,
+    "holding_s": 9.232,
+    "sid": "S00012",
+    "service": "Transcoder",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 203,
+    "busy_s": 1.141,
+    "latency_sum_ms": 1314.18,
+    "holding_s": 7.309,
+    "sid": "S00020",
+    "service": "IoT-GW",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 324,
+    "busy_s": 1.889,
+    "latency_sum_ms": 2197.974,
+    "holding_s": 9.123,
+    "sid": "S00018",
+    "service": "IoT-GW",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 2008,
+    "busy_s": 11.819,
+    "latency_sum_ms": 13514.258,
+    "holding_s": 13.166,
+    "sid": "S00006",
+    "service": "UPF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 618,
+    "busy_s": 3.982,
+    "latency_sum_ms": 4568.782,
+    "holding_s": 4.888,
+    "sid": "S00036",
+    "service": "UPF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 487,
+    "busy_s": 2.687,
+    "latency_sum_ms": 3121.349,
+    "holding_s": 8.951,
+    "sid": "S00027",
+    "service": "IMS-CSCF",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 1822,
+    "busy_s": 10.83,
+    "latency_sum_ms": 12314.135,
+    "holding_s": 13.08,
+    "sid": "S00013",
+    "service": "UPF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 485,
+    "busy_s": 2.819,
+    "latency_sum_ms": 3277.457,
+    "holding_s": 9.985,
+    "sid": "S00023",
+    "service": "IoT-GW",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 529,
+    "busy_s": 3.064,
+    "latency_sum_ms": 3549.543,
+    "holding_s": 7.728,
+    "sid": "S00034",
+    "service": "IMS-CSCF",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 1290,
+    "busy_s": 7.893,
+    "latency_sum_ms": 9082.991,
+    "holding_s": 15.792,
+    "sid": "S00017",
+    "service": "IMS-CSCF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 1027,
+    "busy_s": 6.31,
+    "latency_sum_ms": 7149.27,
+    "holding_s": 12.899,
+    "sid": "S00028",
+    "service": "IMS-CSCF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 941,
+    "busy_s": 5.377,
+    "latency_sum_ms": 6181.423,
+    "holding_s": 11.026,
+    "sid": "S00033",
+    "service": "IMS-CSCF",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 2609,
+    "busy_s": 16.03,
+    "latency_sum_ms": 20649.048,
+    "holding_s": 28.572,
+    "sid": "S00019",
+    "service": "IoT-GW",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 7865,
+    "busy_s": 48.251,
+    "latency_sum_ms": 57766.929,
+    "holding_s": 33.717,
+    "sid": "S00009",
+    "service": "UPF",
+    "site": "core-1"
+  }
+]

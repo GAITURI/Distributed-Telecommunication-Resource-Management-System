@@ -1,0 +1,112 @@
+{
+  "policy": "edge_first",
+  "offered": {
+    "_all": 55,
+    "vRAN-DU": 12,
+    "IMS-CSCF": 10,
+    "IoT-GW": 16,
+    "UPF": 14,
+    "Transcoder": 3
+  },
+  "blocked": {
+    "_all": 15,
+    "UPF": 6,
+    "vRAN-DU": 9
+  },
+  "admitted": {
+    "_all": 40,
+    "vRAN-DU": 3,
+    "IMS-CSCF": 10,
+    "IoT-GW": 16,
+    "UPF": 8,
+    "Transcoder": 3
+  },
+  "blocking_probability": {
+    "_all": 0.2727272727272727,
+    "vRAN-DU": 0.75,
+    "IMS-CSCF": 0.0,
+    "IoT-GW": 0.0,
+    "UPF": 0.42857142857142855,
+    "Transcoder": 0.0
+  },
+  "blocked_reasons": {
+    "_all": {
+      "link_bandwidth": 1,
+      "latency": 9,
+      "node_capacity": 5
+    },
+    "UPF": {
+      "link_bandwidth": 1,
+      "node_capacity": 5
+    },
+    "vRAN-DU": {
+      "latency": 9
+    }
+  },
+  "decision_time_ms": {
+    "mean": 3.513616364216432,
+    "max": 45.692900006542914,
+    "count": 55
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 270,
+    "messages_recv": 270,
+    "bytes_sent": 41421,
+    "bytes_recv": 34327
+  },
+  "sites_final": {
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  }
+}

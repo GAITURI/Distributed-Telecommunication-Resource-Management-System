@@ -1,0 +1,3539 @@
+[
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 1,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 2.247
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 1,
+      "sid": "S00001",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 13.767
+    },
+    "rtt_ms": 33.33,
+    "ts": 1790845516.3731153
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 2,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 0.242
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 2,
+      "sid": "S00002",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.874
+    },
+    "rtt_ms": 5.199,
+    "ts": 1790845516.3975494
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 3,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 4.771
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 3,
+      "sid": "S00003",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 5.564
+    },
+    "rtt_ms": 11.609,
+    "ts": 1790845516.475091
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 4,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 9.582
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 4,
+      "sid": "S00004",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.171
+    },
+    "rtt_ms": 4.466,
+    "ts": 1790845516.6026497
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 5,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 0.863
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 5,
+      "sid": "S00005",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 2.019
+    },
+    "rtt_ms": 3.961,
+    "ts": 1790845516.6137383
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 6,
+      "sid": "S00001",
+      "factor": 2.0
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 6,
+      "sid": "S00001",
+      "cpu": 3000
+    },
+    "ts": 1790845516.623324
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 7,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 13.166
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 7,
+      "sid": "S00006",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 2.066
+    },
+    "rtt_ms": 3.984,
+    "ts": 1790845516.6432867
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 8,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 0.657
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 8,
+      "sid": "S00007",
+      "site": "edge-A",
+      "path": [
+        "edge-B",
+        "edge-A"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 3.078
+    },
+    "rtt_ms": 5.344,
+    "ts": 1790845516.6955655
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 9,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 6.89
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 9,
+      "sid": "S00008",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 3.447
+    },
+    "rtt_ms": 5.484,
+    "ts": 1790845516.761586
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 10,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 33.717
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 10,
+      "sid": "S00009",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 1.881
+    },
+    "rtt_ms": 4.115,
+    "ts": 1790845516.7657707
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 11,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 8.078
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 11,
+      "sid": "S00010",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.221
+    },
+    "rtt_ms": 4.787,
+    "ts": 1790845516.8988945
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 12,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 9.68
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 12,
+      "reason": "link_bandwidth",
+      "decision_ms": 0.265
+    },
+    "rtt_ms": 3.623,
+    "ts": 1790845516.9280877
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 13,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 6.111
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 13,
+      "sid": "S00011",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 4.037
+    },
+    "rtt_ms": 10.694,
+    "ts": 1790845517.011662
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 14,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 9.232
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 14,
+      "sid": "S00012",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.366
+    },
+    "rtt_ms": 4.845,
+    "ts": 1790845517.1791112
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 15,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 13.08
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 15,
+      "sid": "S00013",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 1.914
+    },
+    "rtt_ms": 4.124,
+    "ts": 1790845517.2797377
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 16,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 1.912
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 16,
+      "sid": "S00014",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 1.655
+    },
+    "rtt_ms": 3.546,
+    "ts": 1790845517.283352
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 17,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 2.462
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 17,
+      "sid": "S00015",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.189
+    },
+    "rtt_ms": 4.605,
+    "ts": 1790845517.4273198
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 18,
+      "sid": "S00001",
+      "factor": 2.0
+    },
+    "reply": {
+      "type": "RESIZE_FAIL",
+      "req_id": 18,
+      "reason": "node_capacity"
+    },
+    "ts": 1790845517.4493518
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 19,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 3.595
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 19,
+      "sid": "S00016",
+      "site": "edge-A",
+      "path": [
+        "edge-B",
+        "edge-A"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 2.066
+    },
+    "rtt_ms": 4.152,
+    "ts": 1790845517.4849138
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 20,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 15.792
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 20,
+      "sid": "S00017",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 1.714
+    },
+    "rtt_ms": 3.528,
+    "ts": 1790845517.4942803
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 21,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 6.025
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 21,
+      "reason": "link_bandwidth",
+      "decision_ms": 0.084
+    },
+    "rtt_ms": 3.003,
+    "ts": 1790845517.4978814
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 22,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 9.123
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 22,
+      "sid": "S00018",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 7.676
+    },
+    "rtt_ms": 11.865,
+    "ts": 1790845517.7435956
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 23,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 4.837
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 23,
+      "sid": "S00019",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 3.068
+    },
+    "rtt_ms": 8.332,
+    "ts": 1790845517.767722
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 24,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 5.669
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 24,
+      "reason": "node_capacity",
+      "decision_ms": 0.073
+    },
+    "rtt_ms": 2.065,
+    "ts": 1790845517.9001794
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 25,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 1.327
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 25,
+      "reason": "node_capacity",
+      "decision_ms": 0.076
+    },
+    "rtt_ms": 2.25,
+    "ts": 1790845517.9079242
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 26,
+      "sid": "S00009",
+      "factor": 2.0
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 26,
+      "sid": "S00009",
+      "cpu": 2000
+    },
+    "ts": 1790845517.969421
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 27,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 7.309
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 27,
+      "sid": "S00020",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.751
+    },
+    "rtt_ms": 12.218,
+    "ts": 1790845518.013746
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 28,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 2.19
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 28,
+      "reason": "node_capacity",
+      "decision_ms": 0.12
+    },
+    "rtt_ms": 4.681,
+    "ts": 1790845518.0185072
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 29,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 0.716
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 29,
+      "sid": "S00021",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.143
+    },
+    "rtt_ms": 4.959,
+    "ts": 1790845518.0330153
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 30,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 1.099
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 30,
+      "sid": "S00022",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.406
+    },
+    "rtt_ms": 4.467,
+    "ts": 1790845518.0375597
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 31,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 26.675
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 31,
+      "reason": "node_capacity",
+      "decision_ms": 0.064
+    },
+    "rtt_ms": 2.03,
+    "ts": 1790845518.0876532
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 32,
+      "sid": "S00008",
+      "factor": 1.5
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 32,
+      "sid": "S00008",
+      "cpu": 375
+    },
+    "ts": 1790845518.1619487
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 33,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 9.985
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 33,
+      "sid": "S00023",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 6.916
+    },
+    "rtt_ms": 9.106,
+    "ts": 1790845518.2711244
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 34,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 1.032
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 34,
+      "reason": "node_capacity",
+      "decision_ms": 0.098
+    },
+    "rtt_ms": 2.496,
+    "ts": 1790845518.3389554
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 35,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 7.102
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 35,
+      "reason": "node_capacity",
+      "decision_ms": 0.098
+    },
+    "rtt_ms": 2.094,
+    "ts": 1790845518.3552444
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 36,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 2.08
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 36,
+      "reason": "node_capacity",
+      "decision_ms": 0.05
+    },
+    "rtt_ms": 1.86,
+    "ts": 1790845518.357166
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 37,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 5.775
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 37,
+      "sid": "S00024",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.146
+    },
+    "rtt_ms": 4.926,
+    "ts": 1790845518.5159354
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 38,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 2.227
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 38,
+      "sid": "S00025",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 1.823
+    },
+    "rtt_ms": 3.826,
+    "ts": 1790845518.5590749
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 39,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 3.499
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 39,
+      "reason": "latency",
+      "decision_ms": 0.053
+    },
+    "rtt_ms": 2.174,
+    "ts": 1790845518.592559
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 40,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 8.951
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 40,
+      "reason": "node_capacity",
+      "decision_ms": 0.067
+    },
+    "rtt_ms": 2.186,
+    "ts": 1790845518.6280444
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 41,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 10.422
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 41,
+      "sid": "S00026",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 4.596
+    },
+    "rtt_ms": 6.796,
+    "ts": 1790845518.9090753
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 42,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 1.208
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 42,
+      "sid": "S00027",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 1.99
+    },
+    "rtt_ms": 3.945,
+    "ts": 1790845518.914096
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 43,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 0.415
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 43,
+      "sid": "S00028",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 1.66
+    },
+    "rtt_ms": 3.67,
+    "ts": 1790845518.9183562
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 44,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 1.455
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 44,
+      "sid": "S00029",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.196
+    },
+    "rtt_ms": 5.342,
+    "ts": 1790845519.0412686
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 45,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 1.439
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 45,
+      "reason": "node_capacity",
+      "decision_ms": 0.099
+    },
+    "rtt_ms": 2.299,
+    "ts": 1790845519.0538135
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 46,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 2.687
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 46,
+      "reason": "node_capacity",
+      "decision_ms": 0.079
+    },
+    "rtt_ms": 2.876,
+    "ts": 1790845519.056751
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 47,
+      "service": "Transcoder",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 1.345
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 47,
+      "reason": "node_capacity",
+      "decision_ms": 0.086
+    },
+    "rtt_ms": 13.866,
+    "ts": 1790845519.1502867
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 48,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 11.026
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 48,
+      "sid": "S00030",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 3.82
+    },
+    "rtt_ms": 5.995,
+    "ts": 1790845519.1603143
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 49,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 15.249
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 49,
+      "reason": "latency",
+      "decision_ms": 0.075
+    },
+    "rtt_ms": 3.67,
+    "ts": 1790845519.286921
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 50,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 4.137
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 50,
+      "reason": "latency",
+      "decision_ms": 0.119
+    },
+    "rtt_ms": 10.552,
+    "ts": 1790845519.2975585
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 51,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 7.728
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 51,
+      "reason": "node_capacity",
+      "decision_ms": 0.094
+    },
+    "rtt_ms": 2.176,
+    "ts": 1790845519.4785893
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 52,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 21.831
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 52,
+      "sid": "S00031",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 1.996
+    },
+    "rtt_ms": 5.28,
+    "ts": 1790845519.5177042
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 53,
+      "service": "Transcoder",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 4.888
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 53,
+      "reason": "node_capacity",
+      "decision_ms": 0.081
+    },
+    "rtt_ms": 4.687,
+    "ts": 1790845519.5508504
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 54,
+      "sid": "S00015",
+      "factor": 0.5
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 54,
+      "sid": "S00015",
+      "cpu": 1000
+    },
+    "ts": 1790845519.5790067
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 55,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 4.904
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 55,
+      "sid": "S00032",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 3.021
+    },
+    "rtt_ms": 6.106,
+    "ts": 1790845519.7283978
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 56,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 5.64
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 56,
+      "reason": "latency",
+      "decision_ms": 0.083
+    },
+    "rtt_ms": 2.462,
+    "ts": 1790845520.094595
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 57,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 16.914
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 57,
+      "reason": "node_capacity",
+      "decision_ms": 0.07
+    },
+    "rtt_ms": 2.029,
+    "ts": 1790845520.1037807
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 58,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 7.567
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 58,
+      "reason": "latency",
+      "decision_ms": 0.127
+    },
+    "rtt_ms": 5.094,
+    "ts": 1790845520.1379251
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 59,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 8.818
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 59,
+      "sid": "S00033",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.997
+    },
+    "rtt_ms": 5.262,
+    "ts": 1790845520.428233
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 60,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 2.457
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 60,
+      "reason": "latency",
+      "decision_ms": 0.14
+    },
+    "rtt_ms": 3.652,
+    "ts": 1790845520.6055517
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 61,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 2.543
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 61,
+      "reason": "node_capacity",
+      "decision_ms": 0.075
+    },
+    "rtt_ms": 2.13,
+    "ts": 1790845520.751199
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 62,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 9.305
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 62,
+      "reason": "node_capacity",
+      "decision_ms": 0.057
+    },
+    "rtt_ms": 2.166,
+    "ts": 1790845520.8138072
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 63,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 18.859
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 63,
+      "sid": "S00034",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 4.129
+    },
+    "rtt_ms": 6.659,
+    "ts": 1790845520.9451516
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 64,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 0.361
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 64,
+      "sid": "S00035",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.003
+    },
+    "rtt_ms": 4.263,
+    "ts": 1790845520.9494839
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 65,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 10.815
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 65,
+      "sid": "S00036",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.233
+    },
+    "rtt_ms": 4.39,
+    "ts": 1790845520.9592538
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 66,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 23.211
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 66,
+      "reason": "latency",
+      "decision_ms": 0.259
+    },
+    "rtt_ms": 8.909,
+    "ts": 1790845521.0007305
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 67,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 14.395
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 67,
+      "reason": "latency",
+      "decision_ms": 0.081
+    },
+    "rtt_ms": 3.162,
+    "ts": 1790845521.0730636
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 68,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 0.342
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 68,
+      "reason": "latency",
+      "decision_ms": 0.077
+    },
+    "rtt_ms": 3.208,
+    "ts": 1790845521.1330318
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 69,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 18.335
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 69,
+      "sid": "S00037",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 1.915
+    },
+    "rtt_ms": 4.46,
+    "ts": 1790845521.1633608
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 70,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 29.147
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 70,
+      "sid": "S00038",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.864
+    },
+    "rtt_ms": 5.554,
+    "ts": 1790845521.265144
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 71,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 29.907
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 71,
+      "reason": "node_capacity",
+      "decision_ms": 0.131
+    },
+    "rtt_ms": 3.971,
+    "ts": 1790845521.4371562
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 72,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 1.581
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 72,
+      "sid": "S00039",
+      "site": "edge-B",
+      "path": [
+        "edge-A",
+        "edge-B"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 3.659
+    },
+    "rtt_ms": 7.494,
+    "ts": 1790845521.5531032
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 73,
+      "sid": "S00006",
+      "factor": 2.0
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 73,
+      "sid": "S00006",
+      "cpu": 2000
+    },
+    "ts": 1790845521.6203144
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 74,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 2.483
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 74,
+      "sid": "S00040",
+      "site": "edge-B",
+      "path": [
+        "edge-A",
+        "edge-B"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 2.303
+    },
+    "rtt_ms": 7.961,
+    "ts": 1790845521.6541848
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 75,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 2.013
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 75,
+      "sid": "S00041",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 2.412
+    },
+    "rtt_ms": 5.352,
+    "ts": 1790845521.6596105
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 76,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 2.018
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 76,
+      "reason": "node_capacity",
+      "decision_ms": 0.091
+    },
+    "rtt_ms": 2.653,
+    "ts": 1790845521.6977456
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 77,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 15.982
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 77,
+      "reason": "node_capacity",
+      "decision_ms": 0.087
+    },
+    "rtt_ms": 4.534,
+    "ts": 1790845521.7712996
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 78,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 9.103
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 78,
+      "reason": "node_capacity",
+      "decision_ms": 0.082
+    },
+    "rtt_ms": 3.29,
+    "ts": 1790845521.9987483
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 79,
+      "sid": "S00018",
+      "factor": 1.5
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 79,
+      "sid": "S00018",
+      "cpu": 375
+    },
+    "ts": 1790845522.004696
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 80,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 0.98
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 80,
+      "reason": "node_capacity",
+      "decision_ms": 0.078
+    },
+    "rtt_ms": 2.276,
+    "ts": 1790845522.1194882
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 81,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 0.312
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 81,
+      "reason": "latency",
+      "decision_ms": 0.07
+    },
+    "rtt_ms": 2.179,
+    "ts": 1790845522.3545716
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 82,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 4.587
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 82,
+      "reason": "node_capacity",
+      "decision_ms": 0.055
+    },
+    "rtt_ms": 2.134,
+    "ts": 1790845522.414767
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 83,
+      "sid": "S00016",
+      "factor": 2.0
+    },
+    "reply": {
+      "type": "RESIZE_FAIL",
+      "req_id": 83,
+      "reason": "unknown_or_terminated"
+    },
+    "ts": 1790845522.4764483
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 84,
+      "sid": "S00019",
+      "factor": 1.5
+    },
+    "reply": {
+      "type": "RESIZE_FAIL",
+      "req_id": 84,
+      "reason": "node_capacity"
+    },
+    "ts": 1790845522.589067
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 85,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 2.352
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 85,
+      "reason": "latency",
+      "decision_ms": 0.062
+    },
+    "rtt_ms": 3.727,
+    "ts": 1790845522.6926267
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 86,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 3.623
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 86,
+      "reason": "latency",
+      "decision_ms": 0.077
+    },
+    "rtt_ms": 2.308,
+    "ts": 1790845522.7734718
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 87,
+      "service": "Transcoder",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 7.807
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 87,
+      "reason": "node_capacity",
+      "decision_ms": 0.132
+    },
+    "rtt_ms": 2.799,
+    "ts": 1790845522.7790344
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 88,
+      "sid": "S00023",
+      "factor": 1.5
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 88,
+      "sid": "S00023",
+      "cpu": 375
+    },
+    "ts": 1790845522.811923
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 89,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 5.66
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 89,
+      "reason": "latency",
+      "decision_ms": 0.078
+    },
+    "rtt_ms": 2.266,
+    "ts": 1790845522.850954
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 90,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 6.467
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 90,
+      "reason": "node_capacity",
+      "decision_ms": 0.55
+    },
+    "rtt_ms": 5.24,
+    "ts": 1790845522.9316504
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 91,
+      "service": "Transcoder",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 9.049
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 91,
+      "reason": "node_capacity",
+      "decision_ms": 0.086
+    },
+    "rtt_ms": 3.611,
+    "ts": 1790845522.939734
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 92,
+      "service": "Transcoder",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 4.168
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 92,
+      "reason": "node_capacity",
+      "decision_ms": 0.088
+    },
+    "rtt_ms": 3.972,
+    "ts": 1790845523.095559
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 93,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 4.495
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 93,
+      "sid": "S00042",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.727
+    },
+    "rtt_ms": 5.186,
+    "ts": 1790845523.2163565
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 94,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 9.007
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 94,
+      "sid": "S00043",
+      "site": "edge-A",
+      "path": [
+        "edge-B",
+        "edge-A"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 2.907
+    },
+    "rtt_ms": 5.656,
+    "ts": 1790845523.2881963
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 95,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 8.603
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 95,
+      "sid": "S00044",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 9.156
+    },
+    "rtt_ms": 11.328,
+    "ts": 1790845523.398735
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 96,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 13.649
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 96,
+      "reason": "node_capacity",
+      "decision_ms": 0.098
+    },
+    "rtt_ms": 2.461,
+    "ts": 1790845523.4624958
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 97,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 13.142
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 97,
+      "reason": "node_capacity",
+      "decision_ms": 0.078
+    },
+    "rtt_ms": 2.165,
+    "ts": 1790845523.5550933
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 98,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 7.559
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 98,
+      "reason": "latency",
+      "decision_ms": 0.082
+    },
+    "rtt_ms": 2.105,
+    "ts": 1790845523.5655503
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 99,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 10.137
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 99,
+      "sid": "S00045",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.989
+    },
+    "rtt_ms": 9.792,
+    "ts": 1790845523.6705155
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 100,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 17.854
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 100,
+      "reason": "latency",
+      "decision_ms": 0.081
+    },
+    "rtt_ms": 4.157,
+    "ts": 1790845523.6996403
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 101,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 1.976
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 101,
+      "sid": "S00046",
+      "site": "edge-A",
+      "path": [
+        "edge-B",
+        "edge-A"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 3.547
+    },
+    "rtt_ms": 5.533,
+    "ts": 1790845523.8319263
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 102,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 19.957
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 102,
+      "sid": "S00047",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.108
+    },
+    "rtt_ms": 6.659,
+    "ts": 1790845523.9125102
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 103,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 7.587
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 103,
+      "sid": "S00048",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 5.782
+    },
+    "rtt_ms": 9.635,
+    "ts": 1790845524.210038
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 104,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 18.2
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 104,
+      "sid": "S00049",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 1.934
+    },
+    "rtt_ms": 4.513,
+    "ts": 1790845524.2517543
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 105,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 14.654
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 105,
+      "reason": "node_capacity",
+      "decision_ms": 0.81
+    },
+    "rtt_ms": 16.536,
+    "ts": 1790845524.3058205
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 106,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 7.884
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 106,
+      "reason": "node_capacity",
+      "decision_ms": 0.084
+    },
+    "rtt_ms": 8.228,
+    "ts": 1790845524.320008
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 107,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 2.138
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 107,
+      "reason": "latency",
+      "decision_ms": 0.078
+    },
+    "rtt_ms": 12.161,
+    "ts": 1790845524.3485017
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 108,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 1.191
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 108,
+      "sid": "S00050",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 3.697
+    },
+    "rtt_ms": 14.428,
+    "ts": 1790845524.3747463
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 109,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 4.3
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 109,
+      "reason": "node_capacity",
+      "decision_ms": 0.076
+    },
+    "rtt_ms": 2.832,
+    "ts": 1790845524.3836772
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 110,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 15.544
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 110,
+      "reason": "node_capacity",
+      "decision_ms": 0.104
+    },
+    "rtt_ms": 4.746,
+    "ts": 1790845524.3885407
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 111,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 22.881
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 111,
+      "reason": "node_capacity",
+      "decision_ms": 0.121
+    },
+    "rtt_ms": 6.864,
+    "ts": 1790845524.483858
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 112,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 6.181
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 112,
+      "reason": "node_capacity",
+      "decision_ms": 0.082
+    },
+    "rtt_ms": 32.094,
+    "ts": 1790845524.5322845
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 113,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 5.359
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 113,
+      "reason": "node_capacity",
+      "decision_ms": 0.08
+    },
+    "rtt_ms": 10.65,
+    "ts": 1790845524.5997586
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 114,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 3.277
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 114,
+      "reason": "node_capacity",
+      "decision_ms": 0.093
+    },
+    "rtt_ms": 11.837,
+    "ts": 1790845524.621977
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 115,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 14.686
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 115,
+      "reason": "node_capacity",
+      "decision_ms": 0.082
+    },
+    "rtt_ms": 2.307,
+    "ts": 1790845524.6884208
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 116,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 18.995
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 116,
+      "sid": "S00051",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 2.23
+    },
+    "rtt_ms": 5.096,
+    "ts": 1790845524.8586898
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 117,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 1.167
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 117,
+      "reason": "latency",
+      "decision_ms": 0.088
+    },
+    "rtt_ms": 4.144,
+    "ts": 1790845524.9302547
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 118,
+      "sid": "S00045",
+      "factor": 0.5
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 118,
+      "sid": "S00045",
+      "cpu": 250
+    },
+    "ts": 1790845524.9498274
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 119,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 3.172
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 119,
+      "reason": "latency",
+      "decision_ms": 0.076
+    },
+    "rtt_ms": 3.92,
+    "ts": 1790845524.971866
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 120,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 2.609
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 120,
+      "reason": "node_capacity",
+      "decision_ms": 0.088
+    },
+    "rtt_ms": 2.166,
+    "ts": 1790845525.0103161
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 121,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 5.084
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 121,
+      "sid": "S00052",
+      "site": "edge-B",
+      "path": [
+        "edge-A",
+        "edge-B"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 1.876
+    },
+    "rtt_ms": 4.128,
+    "ts": 1790845525.213551
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 122,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 8.402
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 122,
+      "sid": "S00053",
+      "site": "edge-B",
+      "path": [
+        "edge-A",
+        "edge-B"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 1.89
+    },
+    "rtt_ms": 3.887,
+    "ts": 1790845525.2175107
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 123,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 1.779
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 123,
+      "sid": "S00054",
+      "site": "edge-A",
+      "path": [
+        "edge-A"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 2.184
+    },
+    "rtt_ms": 6.117,
+    "ts": 1790845525.289173
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 124,
+      "service": "IMS-CSCF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 5.004
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 124,
+      "reason": "node_capacity",
+      "decision_ms": 0.078
+    },
+    "rtt_ms": 2.164,
+    "ts": 1790845525.358731
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 125,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 12.033
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 125,
+      "reason": "node_capacity",
+      "decision_ms": 0.08
+    },
+    "rtt_ms": 2.486,
+    "ts": 1790845525.3794224
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 126,
+      "service": "UPF",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 21.148
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 126,
+      "reason": "node_capacity",
+      "decision_ms": 0.096
+    },
+    "rtt_ms": 1.96,
+    "ts": 1790845525.3904612
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 127,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 4.042
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 127,
+      "sid": "S00055",
+      "site": "core-1",
+      "path": [
+        "edge-B",
+        "core-1"
+      ],
+      "path_latency_ms": 6,
+      "decision_ms": 1.936
+    },
+    "rtt_ms": 3.879,
+    "ts": 1790845525.4501936
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 128,
+      "service": "Transcoder",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 0.86
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 128,
+      "reason": "node_capacity",
+      "decision_ms": 0.075
+    },
+    "rtt_ms": 1.735,
+    "ts": 1790845525.4530408
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 129,
+      "service": "IoT-GW",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 12.726
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 129,
+      "sid": "S00056",
+      "site": "core-1",
+      "path": [
+        "edge-A",
+        "core-1"
+      ],
+      "path_latency_ms": 5,
+      "decision_ms": 1.874
+    },
+    "rtt_ms": 3.802,
+    "ts": 1790845525.5535984
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 130,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 0.572
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 130,
+      "reason": "node_capacity",
+      "decision_ms": 0.079
+    },
+    "rtt_ms": 2.102,
+    "ts": 1790845525.5557606
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 131,
+      "sid": "S00014",
+      "factor": 0.5
+    },
+    "reply": {
+      "type": "RESIZE_FAIL",
+      "req_id": 131,
+      "reason": "unknown_or_terminated"
+    },
+    "ts": 1790845525.6026058
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 132,
+      "service": "vRAN-DU",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 13.823
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 132,
+      "reason": "latency",
+      "decision_ms": 0.074
+    },
+    "rtt_ms": 2.247,
+    "ts": 1790845525.6242692
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 133,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 9.829
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 133,
+      "sid": "S00057",
+      "site": "edge-B",
+      "path": [
+        "edge-B"
+      ],
+      "path_latency_ms": 0,
+      "decision_ms": 1.936
+    },
+    "rtt_ms": 4.0,
+    "ts": 1790845525.6340342
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 134,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 7.655
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 134,
+      "sid": "S00058",
+      "site": "edge-A",
+      "path": [
+        "edge-B",
+        "edge-A"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 11.621
+    },
+    "rtt_ms": 13.767,
+    "ts": 1790845525.7321708
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 135,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 3.112
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 135,
+      "reason": "node_capacity",
+      "decision_ms": 0.082
+    },
+    "rtt_ms": 2.081,
+    "ts": 1790845525.8193662
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 136,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 17.072
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 136,
+      "reason": "node_capacity",
+      "decision_ms": 0.055
+    },
+    "rtt_ms": 1.827,
+    "ts": 1790845525.8375998
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 137,
+      "service": "IMS-CSCF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 500,
+        "mem": 256,
+        "bw": 50
+      },
+      "max_latency_ms": 50,
+      "holding_s": 3.281
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 137,
+      "reason": "node_capacity",
+      "decision_ms": 0.055
+    },
+    "rtt_ms": 2.179,
+    "ts": 1790845525.8565075
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 138,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 1.907
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 138,
+      "reason": "node_capacity",
+      "decision_ms": 0.081
+    },
+    "rtt_ms": 2.163,
+    "ts": 1790845525.9021463
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 139,
+      "service": "UPF",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 1000,
+        "mem": 512,
+        "bw": 400
+      },
+      "max_latency_ms": 10,
+      "holding_s": 6.492
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 139,
+      "reason": "node_capacity",
+      "decision_ms": 0.081
+    },
+    "rtt_ms": 2.24,
+    "ts": 1790845526.008944
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 140,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 10.186
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 140,
+      "reason": "latency",
+      "decision_ms": 0.078
+    },
+    "rtt_ms": 2.18,
+    "ts": 1790845526.0573351
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 141,
+      "service": "IoT-GW",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 250,
+        "mem": 128,
+        "bw": 20
+      },
+      "max_latency_ms": 100,
+      "holding_s": 8.305
+    },
+    "reply": {
+      "type": "ACCEPTED",
+      "req_id": 141,
+      "sid": "S00059",
+      "site": "edge-A",
+      "path": [
+        "edge-B",
+        "edge-A"
+      ],
+      "path_latency_ms": 3,
+      "decision_ms": 2.21
+    },
+    "rtt_ms": 4.571,
+    "ts": 1790845526.1043656
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 142,
+      "service": "vRAN-DU",
+      "ingress": "edge-A",
+      "demand": {
+        "cpu": 1500,
+        "mem": 512,
+        "bw": 300
+      },
+      "max_latency_ms": 2,
+      "holding_s": 4.146
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 142,
+      "reason": "latency",
+      "decision_ms": 0.093
+    },
+    "rtt_ms": 4.363,
+    "ts": 1790845526.2088764
+  },
+  {
+    "req": {
+      "type": "REQUEST",
+      "req_id": 143,
+      "service": "Transcoder",
+      "ingress": "edge-B",
+      "demand": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200
+      },
+      "max_latency_ms": 50,
+      "holding_s": 5.128
+    },
+    "reply": {
+      "type": "BLOCKED",
+      "req_id": 143,
+      "reason": "node_capacity",
+      "decision_ms": 0.08
+    },
+    "rtt_ms": 3.701,
+    "ts": 1790845526.2273865
+  },
+  {
+    "req": {
+      "type": "RESIZE",
+      "req_id": 144,
+      "sid": "S00009",
+      "factor": 1.5
+    },
+    "reply": {
+      "type": "RESIZE_OK",
+      "req_id": 144,
+      "sid": "S00009",
+      "cpu": 3000
+    },
+    "ts": 1790845531.9795585
+  }
+]

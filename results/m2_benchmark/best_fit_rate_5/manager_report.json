@@ -1,0 +1,112 @@
+{
+  "policy": "best_fit",
+  "offered": {
+    "_all": 48,
+    "vRAN-DU": 8,
+    "IMS-CSCF": 11,
+    "IoT-GW": 13,
+    "UPF": 14,
+    "Transcoder": 2
+  },
+  "blocked": {
+    "_all": 12,
+    "UPF": 6,
+    "vRAN-DU": 6
+  },
+  "admitted": {
+    "_all": 36,
+    "vRAN-DU": 2,
+    "IMS-CSCF": 11,
+    "IoT-GW": 13,
+    "UPF": 8,
+    "Transcoder": 2
+  },
+  "blocking_probability": {
+    "_all": 0.25,
+    "vRAN-DU": 0.75,
+    "IMS-CSCF": 0.0,
+    "IoT-GW": 0.0,
+    "UPF": 0.42857142857142855,
+    "Transcoder": 0.0
+  },
+  "blocked_reasons": {
+    "_all": {
+      "link_bandwidth": 2,
+      "node_capacity": 4,
+      "latency": 6
+    },
+    "UPF": {
+      "link_bandwidth": 2,
+      "node_capacity": 4
+    },
+    "vRAN-DU": {
+      "latency": 6
+    }
+  },
+  "decision_time_ms": {
+    "mean": 1.9732708330290432,
+    "max": 10.299000001396053,
+    "count": 48
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 273,
+    "messages_recv": 273,
+    "bytes_sent": 44267,
+    "bytes_recv": 34707
+  },
+  "sites_final": {
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  }
+}

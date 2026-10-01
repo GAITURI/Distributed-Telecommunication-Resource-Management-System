@@ -1,0 +1,866 @@
+[
+  {
+    "ts": 1790845593.420307,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845593.4239225,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0443,
+    "jobs_interval": 22,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845593.4259305,
+    "site_id": "core-1",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845594.4228847,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845594.4269714,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8984,
+    "jobs_interval": 271,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845594.4298651,
+    "site_id": "core-1",
+    "slot_utilisation": 0.0494,
+    "jobs_interval": 30,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845595.4265556,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.08,
+    "jobs_interval": 27,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845595.4290175,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8506,
+    "jobs_interval": 273,
+    "fairness_j": null,
+    "instances_running": 3
+  },
+  {
+    "ts": 1790845595.4342325,
+    "site_id": "core-1",
+    "slot_utilisation": 0.7904,
+    "jobs_interval": 419,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845596.4397483,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8631,
+    "jobs_interval": 281,
+    "fairness_j": null,
+    "instances_running": 3
+  },
+  {
+    "ts": 1790845596.4412727,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8625,
+    "jobs_interval": 218,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845596.4423275,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8678,
+    "jobs_interval": 568,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845597.4421139,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8964,
+    "jobs_interval": 278,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845597.4441404,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8806,
+    "jobs_interval": 294,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845597.4454646,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8827,
+    "jobs_interval": 598,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845598.4462645,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.852,
+    "jobs_interval": 284,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845598.449003,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8511,
+    "jobs_interval": 303,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845598.4504213,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8791,
+    "jobs_interval": 589,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845599.4495335,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8884,
+    "jobs_interval": 282,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845599.4515615,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8942,
+    "jobs_interval": 175,
+    "fairness_j": null,
+    "instances_running": 6
+  },
+  {
+    "ts": 1790845599.4525695,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8948,
+    "jobs_interval": 580,
+    "fairness_j": null,
+    "instances_running": 6
+  },
+  {
+    "ts": 1790845600.4522138,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8736,
+    "jobs_interval": 279,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845600.4552178,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8793,
+    "jobs_interval": 580,
+    "fairness_j": null,
+    "instances_running": 6
+  },
+  {
+    "ts": 1790845600.4557605,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8673,
+    "jobs_interval": 287,
+    "fairness_j": null,
+    "instances_running": 8
+  },
+  {
+    "ts": 1790845601.4560769,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8874,
+    "jobs_interval": 291,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845601.4676788,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8662,
+    "jobs_interval": 257,
+    "fairness_j": null,
+    "instances_running": 8
+  },
+  {
+    "ts": 1790845601.468935,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8745,
+    "jobs_interval": 557,
+    "fairness_j": null,
+    "instances_running": 6
+  },
+  {
+    "ts": 1790845602.4798224,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.838,
+    "jobs_interval": 299,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845602.4808397,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8376,
+    "jobs_interval": 272,
+    "fairness_j": null,
+    "instances_running": 7
+  },
+  {
+    "ts": 1790845602.481823,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8559,
+    "jobs_interval": 598,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845603.482567,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8777,
+    "jobs_interval": 318,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845603.4837434,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8738,
+    "jobs_interval": 268,
+    "fairness_j": null,
+    "instances_running": 6
+  },
+  {
+    "ts": 1790845603.484791,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8875,
+    "jobs_interval": 593,
+    "fairness_j": null,
+    "instances_running": 6
+  },
+  {
+    "ts": 1790845604.4899113,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8706,
+    "jobs_interval": 269,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845604.4903414,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8455,
+    "jobs_interval": 267,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845604.4924743,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8795,
+    "jobs_interval": 489,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845605.4924853,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.87,
+    "jobs_interval": 264,
+    "fairness_j": null,
+    "instances_running": 5
+  },
+  {
+    "ts": 1790845605.4937372,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8475,
+    "jobs_interval": 182,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845605.495573,
+    "site_id": "core-1",
+    "slot_utilisation": 0.875,
+    "jobs_interval": 595,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845606.4966319,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8741,
+    "jobs_interval": 269,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845606.4977727,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8775,
+    "jobs_interval": 294,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845606.4987717,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8775,
+    "jobs_interval": 615,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845607.499957,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.845,
+    "jobs_interval": 268,
+    "fairness_j": null,
+    "instances_running": 3
+  },
+  {
+    "ts": 1790845607.5018766,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8368,
+    "jobs_interval": 319,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845607.5029001,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8618,
+    "jobs_interval": 413,
+    "fairness_j": null,
+    "instances_running": 3
+  },
+  {
+    "ts": 1790845608.502626,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.8862,
+    "jobs_interval": 221,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845608.5059602,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8922,
+    "jobs_interval": 294,
+    "fairness_j": null,
+    "instances_running": 4
+  },
+  {
+    "ts": 1790845608.5060897,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8863,
+    "jobs_interval": 604,
+    "fairness_j": null,
+    "instances_running": 3
+  },
+  {
+    "ts": 1790845609.5061908,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.821,
+    "jobs_interval": 275,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845609.5090647,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.83,
+    "jobs_interval": 252,
+    "fairness_j": null,
+    "instances_running": 3
+  },
+  {
+    "ts": 1790845609.510176,
+    "site_id": "core-1",
+    "slot_utilisation": 0.8048,
+    "jobs_interval": 365,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845610.5089023,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.4486,
+    "jobs_interval": 138,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845610.5119085,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8755,
+    "jobs_interval": 310,
+    "fairness_j": null,
+    "instances_running": 3
+  },
+  {
+    "ts": 1790845610.5129979,
+    "site_id": "core-1",
+    "slot_utilisation": 0.6617,
+    "jobs_interval": 461,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845611.5125144,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.412,
+    "jobs_interval": 149,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845611.5144587,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8694,
+    "jobs_interval": 284,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845611.5156364,
+    "site_id": "core-1",
+    "slot_utilisation": 0.6583,
+    "jobs_interval": 410,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845612.5160728,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.4197,
+    "jobs_interval": 130,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845612.5167708,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.8556,
+    "jobs_interval": 297,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845612.5190716,
+    "site_id": "core-1",
+    "slot_utilisation": 0.6505,
+    "jobs_interval": 419,
+    "fairness_j": null,
+    "instances_running": 2
+  },
+  {
+    "ts": 1790845613.5198357,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0792,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845613.5218754,
+    "site_id": "core-1",
+    "slot_utilisation": 0.581,
+    "jobs_interval": 289,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845613.521887,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.7251,
+    "jobs_interval": 146,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845614.5273254,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845614.5291667,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.4152,
+    "jobs_interval": 140,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845614.528896,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4254,
+    "jobs_interval": 273,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845615.539224,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845615.5412354,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.4264,
+    "jobs_interval": 160,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845615.542221,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4385,
+    "jobs_interval": 272,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845616.5417004,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845616.5437284,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.4026,
+    "jobs_interval": 129,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845616.5447552,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4376,
+    "jobs_interval": 244,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845617.546652,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845617.5471325,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.3915,
+    "jobs_interval": 116,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845617.547413,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4143,
+    "jobs_interval": 284,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845618.550511,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845618.5516143,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.3512,
+    "jobs_interval": 109,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845618.5523784,
+    "site_id": "core-1",
+    "slot_utilisation": 0.3669,
+    "jobs_interval": 242,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845619.5573199,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845619.5778491,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.2326,
+    "jobs_interval": 79,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845619.588371,
+    "site_id": "core-1",
+    "slot_utilisation": 0.2347,
+    "jobs_interval": 153,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845620.560018,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845620.580506,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.401,
+    "jobs_interval": 128,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845620.5975099,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4378,
+    "jobs_interval": 293,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845621.5628393,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845621.5844135,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.4007,
+    "jobs_interval": 122,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845621.6062107,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4147,
+    "jobs_interval": 282,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845622.5701318,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845622.5878723,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.3427,
+    "jobs_interval": 99,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845622.6198347,
+    "site_id": "core-1",
+    "slot_utilisation": 0.3487,
+    "jobs_interval": 228,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845623.5745873,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845623.5905638,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.2155,
+    "jobs_interval": 76,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845623.6336176,
+    "site_id": "core-1",
+    "slot_utilisation": 0.287,
+    "jobs_interval": 192,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845624.591896,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845624.5940528,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.2585,
+    "jobs_interval": 79,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845624.6397128,
+    "site_id": "core-1",
+    "slot_utilisation": 0.3317,
+    "jobs_interval": 212,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845625.6007004,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845625.6030986,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.4081,
+    "jobs_interval": 131,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845625.6442902,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4277,
+    "jobs_interval": 288,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845626.608969,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.4044,
+    "jobs_interval": 134,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845626.60917,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845626.6496997,
+    "site_id": "core-1",
+    "slot_utilisation": 0.422,
+    "jobs_interval": 296,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845627.6258814,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.0818,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845627.6268928,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845627.654656,
+    "site_id": "core-1",
+    "slot_utilisation": 0.4097,
+    "jobs_interval": 277,
+    "fairness_j": null,
+    "instances_running": 1
+  },
+  {
+    "ts": 1790845628.6297626,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845628.6289194,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790845628.6651397,
+    "site_id": "core-1",
+    "slot_utilisation": 0.3226,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "policy": "edge_first",
+  "offered": {
+    "_all": 154,
+    "vRAN-DU": 30,
+    "IMS-CSCF": 26,
+    "IoT-GW": 37,
+    "UPF": 32,
+    "Transcoder": 29
+  },
+  "blocked": {
+    "_all": 91,
+    "UPF": 26,
+    "vRAN-DU": 27,
+    "Transcoder": 27,
+    "IMS-CSCF": 6,
+    "IoT-GW": 5
+  },
+  "admitted": {
+    "_all": 63,
+    "vRAN-DU": 3,
+    "IMS-CSCF": 20,
+    "IoT-GW": 32,
+    "UPF": 6,
+    "Transcoder": 2
+  },
+  "blocking_probability": {
+    "_all": 0.5909090909090909,
+    "vRAN-DU": 0.9,
+    "IMS-CSCF": 0.23076923076923078,
+    "IoT-GW": 0.13513513513513514,
+    "UPF": 0.8125,
+    "Transcoder": 0.9310344827586207
+  },
+  "blocked_reasons": {
+    "_all": {
+      "link_bandwidth": 4,
+      "node_capacity": 60,
+      "latency": 27
+    },
+    "UPF": {
+      "link_bandwidth": 2,
+      "node_capacity": 24
+    },
+    "vRAN-DU": {
+      "latency": 27
+    },
+    "Transcoder": {
+      "node_capacity": 27
+    },
+    "IMS-CSCF": {
+      "node_capacity": 6
+    },
+    "IoT-GW": {
+      "link_bandwidth": 2,
+      "node_capacity": 3
+    }
+  },
+  "decision_time_ms": {
+    "mean": 3.718163636316509,
+    "max": 146.25010000600014,
+    "count": 154
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 477,
+    "messages_recv": 477,
+    "bytes_sent": 66759,
+    "bytes_recv": 63761
+  },
+  "sites_final": {
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  }
+}

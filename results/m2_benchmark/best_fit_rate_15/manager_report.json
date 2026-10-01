@@ -1,0 +1,124 @@
+{
+  "policy": "best_fit",
+  "offered": {
+    "_all": 125,
+    "vRAN-DU": 23,
+    "IMS-CSCF": 18,
+    "IoT-GW": 35,
+    "UPF": 32,
+    "Transcoder": 17
+  },
+  "blocked": {
+    "_all": 70,
+    "UPF": 27,
+    "vRAN-DU": 20,
+    "IoT-GW": 7,
+    "Transcoder": 11,
+    "IMS-CSCF": 5
+  },
+  "admitted": {
+    "_all": 55,
+    "vRAN-DU": 3,
+    "IMS-CSCF": 13,
+    "IoT-GW": 28,
+    "UPF": 5,
+    "Transcoder": 6
+  },
+  "blocking_probability": {
+    "_all": 0.56,
+    "vRAN-DU": 0.8695652173913043,
+    "IMS-CSCF": 0.2777777777777778,
+    "IoT-GW": 0.2,
+    "UPF": 0.84375,
+    "Transcoder": 0.6470588235294118
+  },
+  "blocked_reasons": {
+    "_all": {
+      "link_bandwidth": 1,
+      "node_capacity": 49,
+      "latency": 20
+    },
+    "UPF": {
+      "link_bandwidth": 1,
+      "node_capacity": 26
+    },
+    "vRAN-DU": {
+      "latency": 20
+    },
+    "IoT-GW": {
+      "node_capacity": 7
+    },
+    "Transcoder": {
+      "node_capacity": 11
+    },
+    "IMS-CSCF": {
+      "node_capacity": 5
+    }
+  },
+  "decision_time_ms": {
+    "mean": 2.8234119991539046,
+    "max": 56.47749999479856,
+    "count": 125
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 392,
+    "messages_recv": 392,
+    "bytes_sent": 61765,
+    "bytes_recv": 51377
+  },
+  "sites_final": {
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  }
+}
