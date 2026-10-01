@@ -1,0 +1,8 @@
+[manager] listening on 127.0.0.1:6000 (policy=least_loaded)
+[manager] REGISTER edge-A (edge) at 127.0.0.1:6101
+[manager] REGISTER core-1 (core) at 127.0.0.1:6103
+[manager] REGISTER edge-B (edge) at 127.0.0.1:6102
+[manager] REGISTER cloud-1 (cloud) at 127.0.0.1:6104
+[manager] edge-A -> SUSPECT (no heartbeat for 3.2s)
+[manager] edge-A back ACTIVE
+[manager] report written to C:\Users\Administrator\Documents\Distributed-Telecommunication-Resource-Management-System\results\least_loaded-seed42-20261001-145548

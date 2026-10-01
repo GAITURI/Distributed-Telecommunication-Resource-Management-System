@@ -1,0 +1,236 @@
+[
+  {
+    "jobs_done": 38,
+    "busy_s": 0.258,
+    "latency_sum_ms": 284.362,
+    "holding_s": 0.242,
+    "sid": "S00002",
+    "service": "IMS-CSCF",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 658,
+    "busy_s": 3.899,
+    "latency_sum_ms": 4583.103,
+    "holding_s": 2.247,
+    "sid": "S00001",
+    "service": "vRAN-DU",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 136,
+    "busy_s": 0.792,
+    "latency_sum_ms": 895.462,
+    "holding_s": 0.863,
+    "sid": "S00005",
+    "service": "IoT-GW",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 101,
+    "busy_s": 0.635,
+    "latency_sum_ms": 707.144,
+    "holding_s": 0.657,
+    "sid": "S00007",
+    "service": "IoT-GW",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 599,
+    "busy_s": 3.685,
+    "latency_sum_ms": 5169.998,
+    "holding_s": 4.771,
+    "sid": "S00003",
+    "service": "IMS-CSCF",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 301,
+    "busy_s": 1.706,
+    "latency_sum_ms": 4141.275,
+    "holding_s": 1.427,
+    "sid": "S00012",
+    "service": "Transcoder",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 556,
+    "busy_s": 3.291,
+    "latency_sum_ms": 6621.391,
+    "holding_s": 6.89,
+    "sid": "S00008",
+    "service": "IoT-GW",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 235,
+    "busy_s": 1.471,
+    "latency_sum_ms": 2196.553,
+    "holding_s": 1.912,
+    "sid": "S00015",
+    "service": "IoT-GW",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 787,
+    "busy_s": 4.718,
+    "latency_sum_ms": 8499.381,
+    "holding_s": 9.582,
+    "sid": "S00004",
+    "service": "IoT-GW",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 300,
+    "busy_s": 1.775,
+    "latency_sum_ms": 5710.797,
+    "holding_s": 2.462,
+    "sid": "S00016",
+    "service": "Transcoder",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 616,
+    "busy_s": 3.451,
+    "latency_sum_ms": 7991.696,
+    "holding_s": 8.078,
+    "sid": "S00010",
+    "service": "UPF",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 621,
+    "busy_s": 3.779,
+    "latency_sum_ms": 9696.523,
+    "holding_s": 9.68,
+    "sid": "S00011",
+    "service": "UPF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 930,
+    "busy_s": 5.395,
+    "latency_sum_ms": 12983.908,
+    "holding_s": 13.166,
+    "sid": "S00006",
+    "service": "UPF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 988,
+    "busy_s": 6.118,
+    "latency_sum_ms": 17342.844,
+    "holding_s": 9.232,
+    "sid": "S00013",
+    "service": "Transcoder",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 364,
+    "busy_s": 2.034,
+    "latency_sum_ms": 5491.773,
+    "holding_s": 2.779,
+    "sid": "S00021",
+    "service": "Transcoder",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 342,
+    "busy_s": 2.059,
+    "latency_sum_ms": 6065.589,
+    "holding_s": 6.025,
+    "sid": "S00019",
+    "service": "UPF",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 177,
+    "busy_s": 1.019,
+    "latency_sum_ms": 2182.659,
+    "holding_s": 2.19,
+    "sid": "S00025",
+    "service": "UPF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 1147,
+    "busy_s": 6.748,
+    "latency_sum_ms": 13093.001,
+    "holding_s": 13.08,
+    "sid": "S00014",
+    "service": "UPF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 652,
+    "busy_s": 3.713,
+    "latency_sum_ms": 5539.69,
+    "holding_s": 5.669,
+    "sid": "S00022",
+    "service": "IMS-CSCF",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 673,
+    "busy_s": 4.013,
+    "latency_sum_ms": 7043.915,
+    "holding_s": 9.158,
+    "sid": "S00020",
+    "service": "vRAN-DU",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 706,
+    "busy_s": 4.14,
+    "latency_sum_ms": 5898.669,
+    "holding_s": 6.001,
+    "sid": "S00026",
+    "service": "IMS-CSCF",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 881,
+    "busy_s": 5.364,
+    "latency_sum_ms": 7179.872,
+    "holding_s": 7.309,
+    "sid": "S00024",
+    "service": "IMS-CSCF",
+    "site": "cloud-1"
+  },
+  {
+    "jobs_done": 1081,
+    "busy_s": 6.537,
+    "latency_sum_ms": 9790.556,
+    "holding_s": 12.565,
+    "sid": "S00018",
+    "service": "vRAN-DU",
+    "site": "edge-A"
+  },
+  {
+    "jobs_done": 2686,
+    "busy_s": 15.582,
+    "latency_sum_ms": 20792.798,
+    "holding_s": 11.501,
+    "sid": "S00023",
+    "service": "vRAN-DU",
+    "site": "edge-B"
+  },
+  {
+    "jobs_done": 6041,
+    "busy_s": 36.309,
+    "latency_sum_ms": 58685.428,
+    "holding_s": 33.717,
+    "sid": "S00009",
+    "service": "UPF",
+    "site": "core-1"
+  },
+  {
+    "jobs_done": 3727,
+    "busy_s": 22.279,
+    "latency_sum_ms": 42417.095,
+    "holding_s": 47.393,
+    "sid": "S00017",
+    "service": "UPF",
+    "site": "edge-A"
+  }
+]

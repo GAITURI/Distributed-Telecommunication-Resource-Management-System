@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  manager:
+    build: .
+    command: python3 manager.py
+    ports:
+      - "9000:9000"
+    networks:
+      - telerm-net
+
+  edge-a:
+    build: .
+    command: python3 site.py edge-A
+    ports:
+      - "9001:9001"
+    depends_on:
+      - manager
+    networks:
+      - telerm-net
+
+  edge-b:
+    build: .
+    command: python3 site.py edge-B
+    ports:
+      - "9002:9002"
+    depends_on:
+      - manager
+    networks:
+      - telerm-net
+
+  core-1:
+    build: .
+    command: python3 site.py core-1
+    ports:
+      - "9003:9003"
+    depends_on:
+      - manager
+    networks:
+      - telerm-net
+
+  cloud-1:
+    build: .
+    command: python3 site.py cloud-1
+    ports:
+      - "9004:9004"
+    depends_on:
+      - manager
+    networks:
+      - telerm-net
+
+networks:
+  telerm-net:
+    driver: bridge

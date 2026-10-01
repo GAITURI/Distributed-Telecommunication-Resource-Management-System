@@ -1,0 +1,122 @@
+{
+  "policy": "least_loaded",
+  "offered": {
+    "_all": 27,
+    "vRAN-DU": 5,
+    "IMS-CSCF": 5,
+    "IoT-GW": 5,
+    "UPF": 8,
+    "Transcoder": 4
+  },
+  "blocked": {
+    "_all": 1,
+    "vRAN-DU": 1
+  },
+  "admitted": {
+    "_all": 26,
+    "vRAN-DU": 4,
+    "IMS-CSCF": 5,
+    "IoT-GW": 5,
+    "UPF": 8,
+    "Transcoder": 4
+  },
+  "blocking_probability": {
+    "_all": 0.037037037037037035,
+    "vRAN-DU": 0.2,
+    "IMS-CSCF": 0.0,
+    "IoT-GW": 0.0,
+    "UPF": 0.0,
+    "Transcoder": 0.0
+  },
+  "blocked_reasons": {
+    "_all": {
+      "latency": 1
+    },
+    "vRAN-DU": {
+      "latency": 1
+    }
+  },
+  "decision_time_ms": {
+    "mean": 117.19819259316729,
+    "max": 665.0613999954658,
+    "count": 27
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "core-1<->cloud-1": {
+      "capacity": 10000,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 335,
+    "messages_recv": 335,
+    "bytes_sent": 63623,
+    "bytes_recv": 45716
+  },
+  "sites_final": {
+    "edge-A": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 12000,
+        "mem": 16384,
+        "bw": 10000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 2000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "cloud-1": {
+      "capacity": {
+        "cpu": 32000,
+        "mem": 65536,
+        "bw": 40000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  }
+}
