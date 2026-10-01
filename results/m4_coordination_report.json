@@ -1,0 +1,43 @@
+{
+  "causal_ordering_verified": true,
+  "elected_leader": "cloud-1",
+  "sync_delay_ms": 3.45,
+  "messages_exchanged": 11,
+  "complexity_data": [
+    {
+      "num_nodes": 3,
+      "bully_messages": 5,
+      "ring_messages": 5,
+      "bully_complexity": "O(3^2)",
+      "ring_complexity": "O(3)"
+    },
+    {
+      "num_nodes": 4,
+      "bully_messages": 9,
+      "ring_messages": 7,
+      "bully_complexity": "O(4^2)",
+      "ring_complexity": "O(4)"
+    },
+    {
+      "num_nodes": 6,
+      "bully_messages": 20,
+      "ring_messages": 11,
+      "bully_complexity": "O(6^2)",
+      "ring_complexity": "O(6)"
+    },
+    {
+      "num_nodes": 8,
+      "bully_messages": 35,
+      "ring_messages": 15,
+      "bully_complexity": "O(8^2)",
+      "ring_complexity": "O(8)"
+    },
+    {
+      "num_nodes": 12,
+      "bully_messages": 77,
+      "ring_messages": 23,
+      "bully_complexity": "O(12^2)",
+      "ring_complexity": "O(12)"
+    }
+  ]
+}
