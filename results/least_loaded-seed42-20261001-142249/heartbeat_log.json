@@ -1,0 +1,34 @@
+[
+  {
+    "ts": 1790853772.0018537,
+    "site_id": "edge-B",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790853772.0216084,
+    "site_id": "edge-A",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790853772.029504,
+    "site_id": "core-1",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  },
+  {
+    "ts": 1790853772.0590382,
+    "site_id": "cloud-1",
+    "slot_utilisation": 0.0,
+    "jobs_interval": 0,
+    "fairness_j": null,
+    "instances_running": 0
+  }
+]

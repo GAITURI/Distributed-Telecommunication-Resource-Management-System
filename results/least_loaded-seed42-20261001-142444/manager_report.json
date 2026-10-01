@@ -1,0 +1,101 @@
+{
+  "policy": "least_loaded",
+  "offered": {
+    "_all": 0
+  },
+  "blocked": {
+    "_all": 0
+  },
+  "admitted": {
+    "_all": 0
+  },
+  "blocking_probability": {
+    "_all": 0.0
+  },
+  "blocked_reasons": {
+    "_all": {}
+  },
+  "decision_time_ms": {
+    "mean": null,
+    "max": null,
+    "count": 0
+  },
+  "link_utilisation_final": {
+    "edge-A<->core-1": {
+      "capacity": 1000.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "core-1<->cloud-1": {
+      "capacity": 10000.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 11,
+    "messages_recv": 11,
+    "bytes_sent": 3047,
+    "bytes_recv": 1370
+  },
+  "sites_final": {
+    "cloud-1": {
+      "capacity": {
+        "cpu": 64000,
+        "mem": 131072,
+        "bw": 20000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-B": {
+      "capacity": {
+        "cpu": 8000,
+        "mem": 8192,
+        "bw": 1000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "edge-A": {
+      "capacity": {
+        "cpu": 8000,
+        "mem": 8192,
+        "bw": 1000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    },
+    "core-1": {
+      "capacity": {
+        "cpu": 32000,
+        "mem": 65536,
+        "bw": 5000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      }
+    }
+  }
+}

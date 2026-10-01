@@ -1,0 +1,139 @@
+{
+  "config": {
+    "manager": {
+      "host": "127.0.0.1",
+      "port": 9000,
+      "heartbeat_interval_s": 1.0,
+      "heartbeat_timeout_s": 3.5,
+      "policy": "least_loaded"
+    },
+    "sites": {
+      "edge-A": {
+        "host": "127.0.0.1",
+        "port": 9001,
+        "cpu": 8000,
+        "mem": 8192,
+        "bw": 1000,
+        "workers": 8,
+        "tier": "edge"
+      },
+      "edge-B": {
+        "host": "127.0.0.1",
+        "port": 9002,
+        "cpu": 8000,
+        "mem": 8192,
+        "bw": 1000,
+        "workers": 8,
+        "tier": "edge"
+      },
+      "core-1": {
+        "host": "127.0.0.1",
+        "port": 9003,
+        "cpu": 32000,
+        "mem": 65536,
+        "bw": 5000,
+        "workers": 32,
+        "tier": "core"
+      },
+      "cloud-1": {
+        "host": "127.0.0.1",
+        "port": 9004,
+        "cpu": 64000,
+        "mem": 131072,
+        "bw": 20000,
+        "workers": 64,
+        "tier": "cloud"
+      }
+    },
+    "links": [
+      {
+        "a": "edge-A",
+        "b": "core-1",
+        "capacity": 1000.0,
+        "latency_ms": 3.0
+      },
+      {
+        "a": "edge-B",
+        "b": "core-1",
+        "capacity": 1000.0,
+        "latency_ms": 3.0
+      },
+      {
+        "a": "edge-A",
+        "b": "edge-B",
+        "capacity": 400.0,
+        "latency_ms": 8.0
+      },
+      {
+        "a": "core-1",
+        "b": "cloud-1",
+        "capacity": 10000.0,
+        "latency_ms": 15.0
+      }
+    ],
+    "services": {
+      "vRAN-DU": {
+        "cpu": 2000,
+        "mem": 1024,
+        "bw": 200,
+        "max_latency": 2.0,
+        "duration_mean_s": 10.0
+      },
+      "UPF": {
+        "cpu": 4000,
+        "mem": 4096,
+        "bw": 300,
+        "max_latency": 5.0,
+        "duration_mean_s": 25.0
+      },
+      "Transcoder": {
+        "cpu": 3000,
+        "mem": 2048,
+        "bw": 100,
+        "max_latency": 10.0,
+        "duration_mean_s": 15.0
+      },
+      "IoT-GW": {
+        "cpu": 500,
+        "mem": 512,
+        "bw": 10,
+        "max_latency": 15.0,
+        "duration_mean_s": 20.0
+      },
+      "IMS-CSCF": {
+        "cpu": 1000,
+        "mem": 1024,
+        "bw": 50,
+        "max_latency": 25.0,
+        "duration_mean_s": 30.0
+      }
+    },
+    "workload": {
+      "duration_s": 12.0,
+      "arrival_rate_per_s": 15.0,
+      "mean_holding_s": 15.0,
+      "ingress_sites": [
+        "edge-A",
+        "edge-B"
+      ],
+      "weights": {
+        "vRAN-DU": 0.25,
+        "UPF": 0.25,
+        "Transcoder": 0.15,
+        "IoT-GW": 0.2,
+        "IMS-CSCF": 0.15
+      }
+    },
+    "seed": 42,
+    "placement_policy": "least_loaded"
+  },
+  "argv": [
+    "run_demo.py",
+    "--policy",
+    "least_loaded"
+  ],
+  "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22000-SP0",
+  "command": "python3 run_demo.py --policy least_loaded",
+  "started_at": "2026-10-01T14:22:49.546104"
+}

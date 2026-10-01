@@ -1,0 +1,108 @@
+{
+  "type": "STATUS_OK",
+  "policy": "least_loaded",
+  "sites": {
+    "edge-B": {
+      "tier": "edge",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 8000,
+        "mem": 8192,
+        "bw": 1000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0
+    },
+    "edge-A": {
+      "tier": "edge",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 8000,
+        "mem": 8192,
+        "bw": 1000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0
+    },
+    "cloud-1": {
+      "tier": "cloud",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 64000,
+        "mem": 131072,
+        "bw": 20000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0
+    },
+    "core-1": {
+      "tier": "core",
+      "status": "ACTIVE",
+      "capacity": {
+        "cpu": 32000,
+        "mem": 65536,
+        "bw": 5000
+      },
+      "allocated": {
+        "cpu": 0,
+        "mem": 0,
+        "bw": 0
+      },
+      "last_fairness": null,
+      "last_slot_util": 0.0
+    }
+  },
+  "running_instances": 0,
+  "offered": {
+    "_all": 0
+  },
+  "blocked": {
+    "_all": 0
+  },
+  "admitted": {
+    "_all": 0
+  },
+  "link_utilisation": {
+    "edge-A<->core-1": {
+      "capacity": 1000.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-B<->core-1": {
+      "capacity": 1000.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "edge-A<->edge-B": {
+      "capacity": 400.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    },
+    "core-1<->cloud-1": {
+      "capacity": 10000.0,
+      "reserved": 0.0,
+      "utilisation": 0.0
+    }
+  },
+  "counters": {
+    "messages_sent": 9,
+    "messages_recv": 10,
+    "bytes_sent": 1660,
+    "bytes_recv": 1345
+  }
+}

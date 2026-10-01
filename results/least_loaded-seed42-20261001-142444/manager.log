@@ -1,0 +1,6 @@
+[manager] listening on 127.0.0.1:9000 (policy=least_loaded)
+[manager] REGISTER cloud-1 (cloud) at 127.0.0.1:9004
+[manager] REGISTER edge-B (edge) at 127.0.0.1:9002
+[manager] REGISTER edge-A (edge) at 127.0.0.1:9001
+[manager] REGISTER core-1 (core) at 127.0.0.1:9003
+[manager] report written to C:\Users\Administrator\Documents\Distributed-Telecommunication-Resource-Management-System\results\least_loaded-seed42-20261001-142444
