@@ -1,0 +1,170 @@
+{
+  "policies": [
+    "best_fit",
+    "edge_first",
+    "latency_slack",
+    "least_loaded"
+  ],
+  "rates": [
+    1.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    12.0
+  ],
+  "by_rate": {
+    "1.0": {
+      "best_fit": {
+        "delta_blocking_pp": 0.006459999999999848,
+        "delta_blocking_ci": 0.3261649666818311,
+        "delta_du_pp": -0.5942600000000005,
+        "delta_du_ci": 1.4948725275354282,
+        "significant": "no"
+      },
+      "latency_slack": {
+        "delta_blocking_pp": -6.34164,
+        "delta_blocking_ci": 0.3113861192785574,
+        "delta_du_pp": -30.64198,
+        "delta_du_ci": 1.5348210218630183,
+        "significant": "yes (better)"
+      },
+      "least_loaded": {
+        "delta_blocking_pp": -5.3713999999999995,
+        "delta_blocking_ci": 0.3524328712024461,
+        "delta_du_pp": -27.98628,
+        "delta_du_ci": 1.5738368074172873,
+        "significant": "yes (better)"
+      }
+    },
+    "2.0": {
+      "best_fit": {
+        "delta_blocking_pp": 0.2976799999999997,
+        "delta_blocking_ci": 0.3007553052496995,
+        "delta_du_pp": -2.3136799999999984,
+        "delta_du_ci": 1.1262851568603043,
+        "significant": "no"
+      },
+      "latency_slack": {
+        "delta_blocking_pp": -5.12628,
+        "delta_blocking_ci": 0.43475668450000854,
+        "delta_du_pp": -26.343919999999997,
+        "delta_du_ci": 1.688042045754264,
+        "significant": "yes (better)"
+      },
+      "least_loaded": {
+        "delta_blocking_pp": -3.11644,
+        "delta_blocking_ci": 0.3270911734757756,
+        "delta_du_pp": -20.750860000000003,
+        "delta_du_ci": 1.4568835766798114,
+        "significant": "yes (better)"
+      }
+    },
+    "4.0": {
+      "best_fit": {
+        "delta_blocking_pp": -0.76554,
+        "delta_blocking_ci": 0.31495448593496805,
+        "delta_du_pp": -4.835440000000002,
+        "delta_du_ci": 0.7831283057212014,
+        "significant": "yes (better)"
+      },
+      "latency_slack": {
+        "delta_blocking_pp": -3.6338999999999997,
+        "delta_blocking_ci": 0.3774432829234083,
+        "delta_du_pp": -16.54338,
+        "delta_du_ci": 0.8375924172573674,
+        "significant": "yes (better)"
+      },
+      "least_loaded": {
+        "delta_blocking_pp": -2.2675799999999997,
+        "delta_blocking_ci": 0.35487671931846987,
+        "delta_du_pp": -8.42786,
+        "delta_du_ci": 0.6525895697353429,
+        "significant": "yes (better)"
+      }
+    },
+    "6.0": {
+      "best_fit": {
+        "delta_blocking_pp": -0.5866199999999994,
+        "delta_blocking_ci": 0.27091112823034785,
+        "delta_du_pp": -4.34908,
+        "delta_du_ci": 0.4328876857687683,
+        "significant": "yes (better)"
+      },
+      "latency_slack": {
+        "delta_blocking_pp": -1.9312399999999992,
+        "delta_blocking_ci": 0.30274570899710534,
+        "delta_du_pp": -9.97126,
+        "delta_du_ci": 0.5029191074637749,
+        "significant": "yes (better)"
+      },
+      "least_loaded": {
+        "delta_blocking_pp": -1.5677799999999997,
+        "delta_blocking_ci": 0.2690355593103634,
+        "delta_du_pp": -4.1690000000000005,
+        "delta_du_ci": 0.4326436451769514,
+        "significant": "yes (better)"
+      }
+    },
+    "8.0": {
+      "best_fit": {
+        "delta_blocking_pp": -0.23951999999999984,
+        "delta_blocking_ci": 0.26726063943768447,
+        "delta_du_pp": -3.22116,
+        "delta_du_ci": 0.38139075090117214,
+        "significant": "no"
+      },
+      "latency_slack": {
+        "delta_blocking_pp": -1.5652199999999994,
+        "delta_blocking_ci": 0.3003157528959145,
+        "delta_du_pp": -7.07708,
+        "delta_du_ci": 0.4539961750788655,
+        "significant": "yes (better)"
+      },
+      "least_loaded": {
+        "delta_blocking_pp": -1.3991199999999997,
+        "delta_blocking_ci": 0.26021665070290956,
+        "delta_du_pp": -1.9070399999999998,
+        "delta_du_ci": 0.27358948845772546,
+        "significant": "yes (better)"
+      }
+    },
+    "12.0": {
+      "best_fit": {
+        "delta_blocking_pp": -0.019199999999999592,
+        "delta_blocking_ci": 0.2488617695669626,
+        "delta_du_pp": -1.73694,
+        "delta_du_ci": 0.23490722050579887,
+        "significant": "no"
+      },
+      "latency_slack": {
+        "delta_blocking_pp": -1.2725199999999999,
+        "delta_blocking_ci": 0.2858459934171549,
+        "delta_du_pp": -3.616339999999999,
+        "delta_du_ci": 0.2517137683500049,
+        "significant": "yes (better)"
+      },
+      "least_loaded": {
+        "delta_blocking_pp": -1.6070199999999994,
+        "delta_blocking_ci": 0.21150572448196295,
+        "delta_du_pp": -0.773899999999999,
+        "delta_du_ci": 0.16917487156194333,
+        "significant": "yes (better)"
+      }
+    }
+  },
+  "recommendation": {
+    "design_rate": 2.0,
+    "best_policy": "latency_slack",
+    "mean_blocking_pct": {
+      "best_fit": 19.8883,
+      "edge_first": 19.590619999999998,
+      "latency_slack": 14.46434,
+      "least_loaded": 16.47418
+    }
+  },
+  "block_reasons_pct": {
+    "node_capacity": 78.37046274981832,
+    "link_bandwidth": 21.62953725018169
+  }
+}

@@ -1,0 +1,4 @@
+site,tier,cpu_millicores,mem_mb,bw_mbps,workers
+edge-A,edge,4000,4096,2000,2
+edge-B,edge,4000,4096,2000,2
+core-1,core,12000,16384,10000,4

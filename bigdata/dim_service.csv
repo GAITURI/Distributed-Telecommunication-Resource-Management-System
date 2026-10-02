@@ -1,0 +1,6 @@
+service,cpu_millicores,mem_mb,bw_mbps,max_latency_ms,arrival_share
+vRAN-DU,1500,512,300,2,0.2
+UPF,1000,512,400,10,0.2
+IMS-CSCF,500,256,50,50,0.2
+Transcoder,2000,1024,200,50,0.15
+IoT-GW,250,128,20,100,0.25
